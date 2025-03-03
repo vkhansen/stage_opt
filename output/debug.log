@@ -1235,3 +1235,1240 @@ Starting GeneticAlgorithmSolver optimization...
 2025-03-03 11:47:08,526 - optimization - INFO - [report_generator.py:81] - Report saved to /Users/jwt/stage_opt/output/optimization_report.json
 2025-03-03 11:47:08,526 - optimization - INFO - [report_generator.py:82] - Successful solvers: ['SLSQPSolver', 'BasinHoppingOptimizer', 'ParticleSwarmOptimizer', 'DifferentialEvolutionSolver', 'GeneticAlgorithmSolver', 'AdaptiveGeneticAlgorithmSolver']
 2025-03-03 11:47:08,526 - optimization - INFO - [main.py:43] - Reports generated successfully
+2025-03-03 12:31:46,685 - optimization - DEBUG - [base_solver.py:59] - Initialized SLSQPSolver with 4 stages
+2025-03-03 12:31:46,685 - optimization - DEBUG - [base_solver.py:59] - Initialized GeneticAlgorithmSolver with 4 stages
+2025-03-03 12:31:46,685 - optimization - DEBUG - [ga_solver.py:90] - Initialized GeneticAlgorithmSolver with parameters:
+  pop_size=100, n_gen=200, mutation_rate=0.1, crossover_rate=0.9, tournament_size=3
+  max_generations=100, min_diversity=1e-06, stagnation_generations=10, stagnation_threshold=1e-06
+2025-03-03 12:31:46,685 - optimization - DEBUG - [base_solver.py:59] - Initialized AdaptiveGeneticAlgorithmSolver with 4 stages
+2025-03-03 12:31:46,685 - optimization - DEBUG - [base_solver.py:59] - Initialized ParticleSwarmOptimizer with 4 stages
+2025-03-03 12:31:46,685 - optimization - DEBUG - [base_solver.py:59] - Initialized DifferentialEvolutionSolver with 4 stages
+2025-03-03 12:31:46,685 - optimization - DEBUG - [base_solver.py:59] - Initialized BasinHoppingOptimizer with 4 stages
+2025-03-03 12:31:46,686 - optimization - DEBUG - [basin_hopping_solver.py:47] - Initialized BasinHoppingOptimizer with parameters: niter=100, T=1.0, stepsize=0.5,             minimizer_options={}
+2025-03-03 12:31:46,686 - optimization - INFO - [parallel_solver.py:40] - Starting parallel optimization with 6 solvers
+2025-03-03 12:31:47,264 - optimization - INFO - [slsqp_solver.py:51] - Starting SLSQP optimization...
+2025-03-03 12:31:47,267 - optimization - INFO - [parallel_solver.py:68] - SLSQPSolver completed successfully
+2025-03-03 12:31:47,269 - optimization - INFO - [ga_solver.py:172] - 
+Starting GeneticAlgorithmSolver optimization...
+2025-03-03 12:31:47,269 - optimization - INFO - [ga_solver.py:173] - Population size: 100
+2025-03-03 12:31:47,269 - optimization - INFO - [ga_solver.py:174] - Number of generations: 100
+2025-03-03 12:31:47,269 - optimization - INFO - [ga_solver.py:175] - Mutation rate: 0.1
+2025-03-03 12:31:47,269 - optimization - INFO - [ga_solver.py:176] - Crossover rate: 0.9
+2025-03-03 12:31:47,269 - optimization - INFO - [ga_solver.py:177] - Tournament size: 3
+2025-03-03 12:31:47,270 - optimization - INFO - [ga_solver.py:178] - ==================================================
+2025-03-03 12:31:47,270 - optimization - INFO - [basin_hopping_solver.py:115] - Starting Basin Hopping optimization...
+2025-03-03 12:31:47,273 - optimization - INFO - [base_ga_solver.py:367] - Generation 1/200:
+2025-03-03 12:31:47,273 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.061044
+2025-03-03 12:31:47,273 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.071920
+2025-03-03 12:31:47,273 - optimization - INFO - [ga_solver.py:209] - Generation 1/200 - Best: -0.060413, Avg: -0.072516, Diversity: 0.133078
+2025-03-03 12:31:47,273 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.136271
+2025-03-03 12:31:47,273 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,277 - optimization - INFO - [base_ga_solver.py:367] - Generation 2/200:
+2025-03-03 12:31:47,277 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060811
+2025-03-03 12:31:47,277 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.064713
+2025-03-03 12:31:47,277 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.089438
+2025-03-03 12:31:47,277 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,277 - optimization - INFO - [ga_solver.py:209] - Generation 2/200 - Best: -0.060118, Avg: -0.066099, Diversity: 0.086283
+2025-03-03 12:31:47,281 - optimization - INFO - [base_ga_solver.py:367] - Generation 3/200:
+2025-03-03 12:31:47,281 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060811
+2025-03-03 12:31:47,281 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.061997
+2025-03-03 12:31:47,281 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.042655
+2025-03-03 12:31:47,281 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,281 - optimization - INFO - [ga_solver.py:209] - Generation 3/200 - Best: -0.060118, Avg: -0.063459, Diversity: 0.057185
+2025-03-03 12:31:47,285 - optimization - INFO - [ga_solver.py:209] - Generation 4/200 - Best: -0.060118, Avg: -0.061893, Diversity: 0.040264
+2025-03-03 12:31:47,285 - optimization - INFO - [base_ga_solver.py:367] - Generation 4/200:
+2025-03-03 12:31:47,285 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060775
+2025-03-03 12:31:47,285 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.061423
+2025-03-03 12:31:47,285 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.022560
+2025-03-03 12:31:47,285 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,289 - optimization - INFO - [ga_solver.py:209] - Generation 5/200 - Best: -0.060117, Avg: -0.060893, Diversity: 0.029643
+2025-03-03 12:31:47,289 - optimization - INFO - [base_ga_solver.py:367] - Generation 5/200:
+2025-03-03 12:31:47,289 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060775
+2025-03-03 12:31:47,289 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.061081
+2025-03-03 12:31:47,289 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.014773
+2025-03-03 12:31:47,290 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,293 - optimization - INFO - [ga_solver.py:209] - Generation 6/200 - Best: -0.060117, Avg: -0.060443, Diversity: 0.013618
+2025-03-03 12:31:47,293 - optimization - INFO - [base_ga_solver.py:367] - Generation 6/200:
+2025-03-03 12:31:47,294 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060761
+2025-03-03 12:31:47,294 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060921
+2025-03-03 12:31:47,294 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.012182
+2025-03-03 12:31:47,294 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,297 - optimization - INFO - [ga_solver.py:209] - Generation 7/200 - Best: -0.060117, Avg: -0.060248, Diversity: 0.007163
+2025-03-03 12:31:47,298 - optimization - INFO - [base_ga_solver.py:367] - Generation 7/200:
+2025-03-03 12:31:47,298 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060756
+2025-03-03 12:31:47,298 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060820
+2025-03-03 12:31:47,298 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.007803
+2025-03-03 12:31:47,298 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,301 - optimization - INFO - [ga_solver.py:209] - Generation 8/200 - Best: -0.060117, Avg: -0.060184, Diversity: 0.004052
+2025-03-03 12:31:47,302 - optimization - INFO - [base_ga_solver.py:367] - Generation 8/200:
+2025-03-03 12:31:47,302 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060755
+2025-03-03 12:31:47,302 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060781
+2025-03-03 12:31:47,302 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.004450
+2025-03-03 12:31:47,302 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,305 - optimization - INFO - [ga_solver.py:209] - Generation 9/200 - Best: -0.060117, Avg: -0.060158, Diversity: 0.002785
+2025-03-03 12:31:47,306 - optimization - INFO - [base_ga_solver.py:367] - Generation 9/200:
+2025-03-03 12:31:47,306 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060755
+2025-03-03 12:31:47,306 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060766
+2025-03-03 12:31:47,306 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.002789
+2025-03-03 12:31:47,306 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,309 - optimization - INFO - [ga_solver.py:209] - Generation 10/200 - Best: -0.060117, Avg: -0.060144, Diversity: 0.001748
+2025-03-03 12:31:47,309 - optimization - INFO - [base_ga_solver.py:367] - Generation 10/200:
+2025-03-03 12:31:47,309 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060753
+2025-03-03 12:31:47,309 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060760
+2025-03-03 12:31:47,310 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.002189
+2025-03-03 12:31:47,310 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,312 - optimization - INFO - [ga_solver.py:209] - Generation 11/200 - Best: -0.060117, Avg: -0.060137, Diversity: 0.001102
+2025-03-03 12:31:47,314 - optimization - INFO - [base_ga_solver.py:367] - Generation 11/200:
+2025-03-03 12:31:47,314 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060753
+2025-03-03 12:31:47,314 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060757
+2025-03-03 12:31:47,314 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.001789
+2025-03-03 12:31:47,314 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,316 - optimization - INFO - [ga_solver.py:209] - Generation 12/200 - Best: -0.060117, Avg: -0.060129, Diversity: 0.000833
+2025-03-03 12:31:47,318 - optimization - INFO - [base_ga_solver.py:367] - Generation 12/200:
+2025-03-03 12:31:47,318 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060750
+2025-03-03 12:31:47,318 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060755
+2025-03-03 12:31:47,318 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.001202
+2025-03-03 12:31:47,318 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,319 - optimization - INFO - [parallel_solver.py:68] - BasinHoppingOptimizer completed successfully
+2025-03-03 12:31:47,320 - optimization - INFO - [ga_solver.py:209] - Generation 13/200 - Best: -0.060117, Avg: -0.060124, Diversity: 0.000562
+2025-03-03 12:31:47,322 - optimization - INFO - [base_ga_solver.py:367] - Generation 13/200:
+2025-03-03 12:31:47,322 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060749
+2025-03-03 12:31:47,322 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060754
+2025-03-03 12:31:47,322 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000828
+2025-03-03 12:31:47,322 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,324 - optimization - INFO - [ga_solver.py:209] - Generation 14/200 - Best: -0.060117, Avg: -0.060122, Diversity: 0.000279
+2025-03-03 12:31:47,326 - optimization - INFO - [base_ga_solver.py:367] - Generation 14/200:
+2025-03-03 12:31:47,326 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060747
+2025-03-03 12:31:47,326 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060752
+2025-03-03 12:31:47,326 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000648
+2025-03-03 12:31:47,326 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,327 - optimization - INFO - [ga_solver.py:209] - Generation 15/200 - Best: -0.060117, Avg: -0.060120, Diversity: 0.000215
+2025-03-03 12:31:47,330 - optimization - INFO - [base_ga_solver.py:367] - Generation 15/200:
+2025-03-03 12:31:47,330 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060744
+2025-03-03 12:31:47,330 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060751
+2025-03-03 12:31:47,330 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000623
+2025-03-03 12:31:47,330 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,331 - optimization - INFO - [ga_solver.py:209] - Generation 16/200 - Best: -0.060116, Avg: -0.060119, Diversity: 0.000160
+2025-03-03 12:31:47,334 - optimization - INFO - [base_ga_solver.py:367] - Generation 16/200:
+2025-03-03 12:31:47,334 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060744
+2025-03-03 12:31:47,334 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060749
+2025-03-03 12:31:47,334 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000585
+2025-03-03 12:31:47,334 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,335 - optimization - INFO - [ga_solver.py:209] - Generation 17/200 - Best: -0.060116, Avg: -0.060118, Diversity: 0.000144
+2025-03-03 12:31:47,338 - optimization - INFO - [base_ga_solver.py:367] - Generation 17/200:
+2025-03-03 12:31:47,338 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060744
+2025-03-03 12:31:47,338 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060748
+2025-03-03 12:31:47,338 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000526
+2025-03-03 12:31:47,338 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,339 - optimization - INFO - [ga_solver.py:209] - Generation 18/200 - Best: -0.060113, Avg: -0.060117, Diversity: 0.000134
+2025-03-03 12:31:47,341 - optimization - INFO - [base_ga_solver.py:367] - Generation 18/200:
+2025-03-03 12:31:47,341 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060742
+2025-03-03 12:31:47,341 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060746
+2025-03-03 12:31:47,341 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000385
+2025-03-03 12:31:47,341 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,343 - optimization - INFO - [ga_solver.py:209] - Generation 19/200 - Best: -0.060113, Avg: -0.060116, Diversity: 0.000116
+2025-03-03 12:31:47,345 - optimization - INFO - [base_ga_solver.py:367] - Generation 19/200:
+2025-03-03 12:31:47,346 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060741
+2025-03-03 12:31:47,346 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060744
+2025-03-03 12:31:47,346 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000232
+2025-03-03 12:31:47,346 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,346 - optimization - INFO - [ga_solver.py:209] - Generation 20/200 - Best: -0.060112, Avg: -0.060115, Diversity: 0.000111
+2025-03-03 12:31:47,350 - optimization - INFO - [base_ga_solver.py:367] - Generation 20/200:
+2025-03-03 12:31:47,350 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060739
+2025-03-03 12:31:47,350 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060743
+2025-03-03 12:31:47,350 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000221
+2025-03-03 12:31:47,350 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,351 - optimization - INFO - [ga_solver.py:209] - Generation 21/200 - Best: -0.060112, Avg: -0.060114, Diversity: 0.000111
+2025-03-03 12:31:47,354 - optimization - INFO - [base_ga_solver.py:367] - Generation 21/200:
+2025-03-03 12:31:47,354 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060737
+2025-03-03 12:31:47,354 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060742
+2025-03-03 12:31:47,354 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000195
+2025-03-03 12:31:47,354 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,355 - optimization - INFO - [ga_solver.py:209] - Generation 22/200 - Best: -0.060111, Avg: -0.060113, Diversity: 0.000125
+2025-03-03 12:31:47,358 - optimization - INFO - [base_ga_solver.py:367] - Generation 22/200:
+2025-03-03 12:31:47,358 - optimization - INFO - [ga_solver.py:209] - Generation 23/200 - Best: -0.060110, Avg: -0.060112, Diversity: 0.000128
+2025-03-03 12:31:47,358 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060737
+2025-03-03 12:31:47,358 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060741
+2025-03-03 12:31:47,358 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000192
+2025-03-03 12:31:47,358 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,362 - optimization - INFO - [ga_solver.py:209] - Generation 24/200 - Best: -0.060110, Avg: -0.060112, Diversity: 0.000119
+2025-03-03 12:31:47,362 - optimization - INFO - [base_ga_solver.py:367] - Generation 23/200:
+2025-03-03 12:31:47,362 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060736
+2025-03-03 12:31:47,362 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060740
+2025-03-03 12:31:47,362 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000160
+2025-03-03 12:31:47,362 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,366 - optimization - INFO - [ga_solver.py:209] - Generation 25/200 - Best: -0.060108, Avg: -0.060111, Diversity: 0.000114
+2025-03-03 12:31:47,366 - optimization - INFO - [base_ga_solver.py:367] - Generation 24/200:
+2025-03-03 12:31:47,366 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060735
+2025-03-03 12:31:47,366 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060738
+2025-03-03 12:31:47,366 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000144
+2025-03-03 12:31:47,366 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,370 - optimization - INFO - [ga_solver.py:209] - Generation 26/200 - Best: -0.060108, Avg: -0.060110, Diversity: 0.000114
+2025-03-03 12:31:47,370 - optimization - INFO - [base_ga_solver.py:367] - Generation 25/200:
+2025-03-03 12:31:47,370 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060732
+2025-03-03 12:31:47,370 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060737
+2025-03-03 12:31:47,370 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000143
+2025-03-03 12:31:47,370 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,373 - optimization - INFO - [ga_solver.py:209] - Generation 27/200 - Best: -0.060108, Avg: -0.060109, Diversity: 0.000113
+2025-03-03 12:31:47,374 - optimization - INFO - [base_ga_solver.py:367] - Generation 26/200:
+2025-03-03 12:31:47,374 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060731
+2025-03-03 12:31:47,374 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060736
+2025-03-03 12:31:47,374 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000122
+2025-03-03 12:31:47,374 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,377 - optimization - INFO - [ga_solver.py:209] - Generation 28/200 - Best: -0.060107, Avg: -0.060109, Diversity: 0.000108
+2025-03-03 12:31:47,377 - optimization - INFO - [base_ga_solver.py:367] - Generation 27/200:
+2025-03-03 12:31:47,377 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060730
+2025-03-03 12:31:47,377 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060734
+2025-03-03 12:31:47,377 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000125
+2025-03-03 12:31:47,378 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,381 - optimization - INFO - [ga_solver.py:209] - Generation 29/200 - Best: -0.060105, Avg: -0.060108, Diversity: 0.000128
+2025-03-03 12:31:47,381 - optimization - INFO - [base_ga_solver.py:367] - Generation 28/200:
+2025-03-03 12:31:47,381 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060730
+2025-03-03 12:31:47,381 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060733
+2025-03-03 12:31:47,381 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000140
+2025-03-03 12:31:47,381 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,385 - optimization - INFO - [ga_solver.py:209] - Generation 30/200 - Best: -0.060105, Avg: -0.060107, Diversity: 0.000101
+2025-03-03 12:31:47,385 - optimization - INFO - [base_ga_solver.py:367] - Generation 29/200:
+2025-03-03 12:31:47,385 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060728
+2025-03-03 12:31:47,385 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060732
+2025-03-03 12:31:47,385 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000169
+2025-03-03 12:31:47,385 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,389 - optimization - INFO - [ga_solver.py:209] - Generation 31/200 - Best: -0.060105, Avg: -0.060106, Diversity: 0.000094
+2025-03-03 12:31:47,389 - optimization - INFO - [base_ga_solver.py:367] - Generation 30/200:
+2025-03-03 12:31:47,389 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060726
+2025-03-03 12:31:47,389 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060731
+2025-03-03 12:31:47,389 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000166
+2025-03-03 12:31:47,389 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,393 - optimization - INFO - [ga_solver.py:209] - Generation 32/200 - Best: -0.060103, Avg: -0.060106, Diversity: 0.000100
+2025-03-03 12:31:47,393 - optimization - INFO - [base_ga_solver.py:367] - Generation 31/200:
+2025-03-03 12:31:47,393 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060726
+2025-03-03 12:31:47,393 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060730
+2025-03-03 12:31:47,393 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000158
+2025-03-03 12:31:47,393 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,396 - optimization - INFO - [ga_solver.py:209] - Generation 33/200 - Best: -0.060103, Avg: -0.060105, Diversity: 0.000130
+2025-03-03 12:31:47,397 - optimization - INFO - [base_ga_solver.py:367] - Generation 32/200:
+2025-03-03 12:31:47,397 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060726
+2025-03-03 12:31:47,397 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060728
+2025-03-03 12:31:47,397 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000117
+2025-03-03 12:31:47,397 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,400 - optimization - INFO - [ga_solver.py:209] - Generation 34/200 - Best: -0.060102, Avg: -0.060104, Diversity: 0.000131
+2025-03-03 12:31:47,401 - optimization - INFO - [base_ga_solver.py:367] - Generation 33/200:
+2025-03-03 12:31:47,401 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060724
+2025-03-03 12:31:47,401 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060727
+2025-03-03 12:31:47,401 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000098
+2025-03-03 12:31:47,401 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,404 - optimization - INFO - [ga_solver.py:209] - Generation 35/200 - Best: -0.060102, Avg: -0.060104, Diversity: 0.000133
+2025-03-03 12:31:47,405 - optimization - INFO - [base_ga_solver.py:367] - Generation 34/200:
+2025-03-03 12:31:47,405 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060722
+2025-03-03 12:31:47,405 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060726
+2025-03-03 12:31:47,405 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000098
+2025-03-03 12:31:47,405 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,408 - optimization - INFO - [ga_solver.py:209] - Generation 36/200 - Best: -0.060100, Avg: -0.060103, Diversity: 0.000126
+2025-03-03 12:31:47,409 - optimization - INFO - [base_ga_solver.py:367] - Generation 35/200:
+2025-03-03 12:31:47,409 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060722
+2025-03-03 12:31:47,409 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060725
+2025-03-03 12:31:47,409 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,409 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,412 - optimization - INFO - [ga_solver.py:209] - Generation 37/200 - Best: -0.060100, Avg: -0.060102, Diversity: 0.000110
+2025-03-03 12:31:47,413 - optimization - INFO - [base_ga_solver.py:367] - Generation 36/200:
+2025-03-03 12:31:47,413 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060721
+2025-03-03 12:31:47,413 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060724
+2025-03-03 12:31:47,413 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000118
+2025-03-03 12:31:47,413 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,415 - optimization - INFO - [ga_solver.py:209] - Generation 38/200 - Best: -0.060099, Avg: -0.060101, Diversity: 0.000104
+2025-03-03 12:31:47,417 - optimization - INFO - [base_ga_solver.py:367] - Generation 37/200:
+2025-03-03 12:31:47,417 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060718
+2025-03-03 12:31:47,417 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060723
+2025-03-03 12:31:47,417 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000122
+2025-03-03 12:31:47,417 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,419 - optimization - INFO - [ga_solver.py:209] - Generation 39/200 - Best: -0.060099, Avg: -0.060101, Diversity: 0.000096
+2025-03-03 12:31:47,421 - optimization - INFO - [base_ga_solver.py:367] - Generation 38/200:
+2025-03-03 12:31:47,421 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060718
+2025-03-03 12:31:47,421 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060722
+2025-03-03 12:31:47,421 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000132
+2025-03-03 12:31:47,421 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,423 - optimization - INFO - [ga_solver.py:209] - Generation 40/200 - Best: -0.060097, Avg: -0.060100, Diversity: 0.000116
+2025-03-03 12:31:47,424 - optimization - INFO - [base_ga_solver.py:367] - Generation 39/200:
+2025-03-03 12:31:47,424 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060718
+2025-03-03 12:31:47,424 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060721
+2025-03-03 12:31:47,424 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:47,425 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,427 - optimization - INFO - [ga_solver.py:209] - Generation 41/200 - Best: -0.060097, Avg: -0.060099, Diversity: 0.000102
+2025-03-03 12:31:47,428 - optimization - INFO - [base_ga_solver.py:367] - Generation 40/200:
+2025-03-03 12:31:47,428 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060715
+2025-03-03 12:31:47,428 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060719
+2025-03-03 12:31:47,428 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000120
+2025-03-03 12:31:47,428 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,431 - optimization - INFO - [ga_solver.py:209] - Generation 42/200 - Best: -0.060097, Avg: -0.060099, Diversity: 0.000099
+2025-03-03 12:31:47,432 - optimization - INFO - [base_ga_solver.py:367] - Generation 41/200:
+2025-03-03 12:31:47,432 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060713
+2025-03-03 12:31:47,432 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060718
+2025-03-03 12:31:47,432 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000124
+2025-03-03 12:31:47,432 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,434 - optimization - INFO - [ga_solver.py:209] - Generation 43/200 - Best: -0.060096, Avg: -0.060098, Diversity: 0.000112
+2025-03-03 12:31:47,436 - optimization - INFO - [base_ga_solver.py:367] - Generation 42/200:
+2025-03-03 12:31:47,436 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060712
+2025-03-03 12:31:47,436 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060716
+2025-03-03 12:31:47,436 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000134
+2025-03-03 12:31:47,436 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,438 - optimization - INFO - [ga_solver.py:209] - Generation 44/200 - Best: -0.060095, Avg: -0.060097, Diversity: 0.000125
+2025-03-03 12:31:47,440 - optimization - INFO - [base_ga_solver.py:367] - Generation 43/200:
+2025-03-03 12:31:47,440 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060712
+2025-03-03 12:31:47,440 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060715
+2025-03-03 12:31:47,440 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000121
+2025-03-03 12:31:47,440 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,442 - optimization - INFO - [ga_solver.py:209] - Generation 45/200 - Best: -0.060094, Avg: -0.060096, Diversity: 0.000107
+2025-03-03 12:31:47,444 - optimization - INFO - [base_ga_solver.py:367] - Generation 44/200:
+2025-03-03 12:31:47,444 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060709
+2025-03-03 12:31:47,444 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060714
+2025-03-03 12:31:47,444 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,444 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,446 - optimization - INFO - [ga_solver.py:209] - Generation 46/200 - Best: -0.060094, Avg: -0.060095, Diversity: 0.000106
+2025-03-03 12:31:47,448 - optimization - INFO - [base_ga_solver.py:367] - Generation 45/200:
+2025-03-03 12:31:47,448 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060708
+2025-03-03 12:31:47,448 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060712
+2025-03-03 12:31:47,448 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000112
+2025-03-03 12:31:47,448 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,450 - optimization - INFO - [ga_solver.py:209] - Generation 47/200 - Best: -0.060092, Avg: -0.060095, Diversity: 0.000111
+2025-03-03 12:31:47,452 - optimization - INFO - [base_ga_solver.py:367] - Generation 46/200:
+2025-03-03 12:31:47,452 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060707
+2025-03-03 12:31:47,452 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060711
+2025-03-03 12:31:47,452 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000118
+2025-03-03 12:31:47,452 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,454 - optimization - INFO - [ga_solver.py:209] - Generation 48/200 - Best: -0.060092, Avg: -0.060094, Diversity: 0.000108
+2025-03-03 12:31:47,456 - optimization - INFO - [base_ga_solver.py:367] - Generation 47/200:
+2025-03-03 12:31:47,456 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060706
+2025-03-03 12:31:47,456 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060709
+2025-03-03 12:31:47,456 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000120
+2025-03-03 12:31:47,456 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,457 - optimization - INFO - [ga_solver.py:209] - Generation 49/200 - Best: -0.060091, Avg: -0.060093, Diversity: 0.000096
+2025-03-03 12:31:47,460 - optimization - INFO - [base_ga_solver.py:367] - Generation 48/200:
+2025-03-03 12:31:47,460 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060705
+2025-03-03 12:31:47,460 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060708
+2025-03-03 12:31:47,460 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000102
+2025-03-03 12:31:47,460 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,461 - optimization - INFO - [ga_solver.py:209] - Generation 50/200 - Best: -0.060091, Avg: -0.060093, Diversity: 0.000106
+2025-03-03 12:31:47,463 - optimization - INFO - [base_ga_solver.py:367] - Generation 49/200:
+2025-03-03 12:31:47,463 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060704
+2025-03-03 12:31:47,463 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060707
+2025-03-03 12:31:47,464 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,464 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,465 - optimization - INFO - [ga_solver.py:209] - Generation 51/200 - Best: -0.060090, Avg: -0.060092, Diversity: 0.000108
+2025-03-03 12:31:47,467 - optimization - INFO - [base_ga_solver.py:367] - Generation 50/200:
+2025-03-03 12:31:47,467 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060703
+2025-03-03 12:31:47,467 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060706
+2025-03-03 12:31:47,468 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,468 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,469 - optimization - INFO - [ga_solver.py:209] - Generation 52/200 - Best: -0.060087, Avg: -0.060091, Diversity: 0.000124
+2025-03-03 12:31:47,471 - optimization - INFO - [base_ga_solver.py:367] - Generation 51/200:
+2025-03-03 12:31:47,471 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060699
+2025-03-03 12:31:47,471 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060704
+2025-03-03 12:31:47,471 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000108
+2025-03-03 12:31:47,472 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,473 - optimization - INFO - [ga_solver.py:209] - Generation 53/200 - Best: -0.060087, Avg: -0.060091, Diversity: 0.000114
+2025-03-03 12:31:47,475 - optimization - INFO - [base_ga_solver.py:367] - Generation 52/200:
+2025-03-03 12:31:47,475 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060699
+2025-03-03 12:31:47,475 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060703
+2025-03-03 12:31:47,475 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000101
+2025-03-03 12:31:47,475 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,476 - optimization - INFO - [ga_solver.py:209] - Generation 54/200 - Best: -0.060087, Avg: -0.060090, Diversity: 0.000131
+2025-03-03 12:31:47,479 - optimization - INFO - [base_ga_solver.py:367] - Generation 53/200:
+2025-03-03 12:31:47,479 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060697
+2025-03-03 12:31:47,479 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060702
+2025-03-03 12:31:47,479 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000129
+2025-03-03 12:31:47,479 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,480 - optimization - INFO - [ga_solver.py:209] - Generation 55/200 - Best: -0.060085, Avg: -0.060089, Diversity: 0.000130
+2025-03-03 12:31:47,483 - optimization - INFO - [base_ga_solver.py:367] - Generation 54/200:
+2025-03-03 12:31:47,483 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060697
+2025-03-03 12:31:47,483 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060701
+2025-03-03 12:31:47,483 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,483 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,484 - optimization - INFO - [ga_solver.py:209] - Generation 56/200 - Best: -0.060085, Avg: -0.060087, Diversity: 0.000124
+2025-03-03 12:31:47,487 - optimization - INFO - [base_ga_solver.py:367] - Generation 55/200:
+2025-03-03 12:31:47,487 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060696
+2025-03-03 12:31:47,487 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060699
+2025-03-03 12:31:47,487 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,487 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,487 - optimization - INFO - [ga_solver.py:209] - Generation 57/200 - Best: -0.060084, Avg: -0.060087, Diversity: 0.000140
+2025-03-03 12:31:47,491 - optimization - INFO - [base_ga_solver.py:367] - Generation 56/200:
+2025-03-03 12:31:47,491 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060696
+2025-03-03 12:31:47,491 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060698
+2025-03-03 12:31:47,491 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,491 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,491 - optimization - INFO - [ga_solver.py:209] - Generation 58/200 - Best: -0.060084, Avg: -0.060086, Diversity: 0.000142
+2025-03-03 12:31:47,495 - optimization - INFO - [base_ga_solver.py:367] - Generation 57/200:
+2025-03-03 12:31:47,495 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060693
+2025-03-03 12:31:47,495 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060697
+2025-03-03 12:31:47,495 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:47,495 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,495 - optimization - INFO - [ga_solver.py:209] - Generation 59/200 - Best: -0.060082, Avg: -0.060085, Diversity: 0.000132
+2025-03-03 12:31:47,499 - optimization - INFO - [base_ga_solver.py:367] - Generation 58/200:
+2025-03-03 12:31:47,499 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060693
+2025-03-03 12:31:47,499 - optimization - INFO - [ga_solver.py:209] - Generation 60/200 - Best: -0.060082, Avg: -0.060085, Diversity: 0.000133
+2025-03-03 12:31:47,499 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060696
+2025-03-03 12:31:47,499 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:47,499 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,502 - optimization - INFO - [base_ga_solver.py:367] - Generation 59/200:
+2025-03-03 12:31:47,502 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060692
+2025-03-03 12:31:47,502 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060694
+2025-03-03 12:31:47,503 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000095
+2025-03-03 12:31:47,503 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,503 - optimization - INFO - [ga_solver.py:209] - Generation 61/200 - Best: -0.060082, Avg: -0.060084, Diversity: 0.000123
+2025-03-03 12:31:47,506 - optimization - INFO - [base_ga_solver.py:367] - Generation 60/200:
+2025-03-03 12:31:47,506 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060691
+2025-03-03 12:31:47,506 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060693
+2025-03-03 12:31:47,506 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000100
+2025-03-03 12:31:47,506 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,506 - optimization - INFO - [ga_solver.py:209] - Generation 62/200 - Best: -0.060082, Avg: -0.060083, Diversity: 0.000123
+2025-03-03 12:31:47,510 - optimization - INFO - [base_ga_solver.py:367] - Generation 61/200:
+2025-03-03 12:31:47,510 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060688
+2025-03-03 12:31:47,510 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060692
+2025-03-03 12:31:47,510 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000099
+2025-03-03 12:31:47,510 - optimization - INFO - [ga_solver.py:209] - Generation 63/200 - Best: -0.060080, Avg: -0.060082, Diversity: 0.000111
+2025-03-03 12:31:47,510 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,514 - optimization - INFO - [base_ga_solver.py:367] - Generation 62/200:
+2025-03-03 12:31:47,514 - optimization - INFO - [ga_solver.py:209] - Generation 64/200 - Best: -0.060080, Avg: -0.060082, Diversity: 0.000112
+2025-03-03 12:31:47,514 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060685
+2025-03-03 12:31:47,514 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060691
+2025-03-03 12:31:47,514 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,514 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,518 - optimization - INFO - [ga_solver.py:209] - Generation 65/200 - Best: -0.060079, Avg: -0.060081, Diversity: 0.000119
+2025-03-03 12:31:47,518 - optimization - INFO - [base_ga_solver.py:367] - Generation 63/200:
+2025-03-03 12:31:47,518 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060685
+2025-03-03 12:31:47,518 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060690
+2025-03-03 12:31:47,518 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000116
+2025-03-03 12:31:47,518 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,521 - optimization - INFO - [ga_solver.py:209] - Generation 66/200 - Best: -0.060078, Avg: -0.060081, Diversity: 0.000115
+2025-03-03 12:31:47,522 - optimization - INFO - [base_ga_solver.py:367] - Generation 64/200:
+2025-03-03 12:31:47,522 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060684
+2025-03-03 12:31:47,522 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060688
+2025-03-03 12:31:47,522 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000118
+2025-03-03 12:31:47,522 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,525 - optimization - INFO - [ga_solver.py:209] - Generation 67/200 - Best: -0.060078, Avg: -0.060080, Diversity: 0.000119
+2025-03-03 12:31:47,526 - optimization - INFO - [base_ga_solver.py:367] - Generation 65/200:
+2025-03-03 12:31:47,526 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060684
+2025-03-03 12:31:47,526 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060687
+2025-03-03 12:31:47,526 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:47,526 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,529 - optimization - INFO - [ga_solver.py:209] - Generation 68/200 - Best: -0.060078, Avg: -0.060079, Diversity: 0.000129
+2025-03-03 12:31:47,530 - optimization - INFO - [base_ga_solver.py:367] - Generation 66/200:
+2025-03-03 12:31:47,530 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060682
+2025-03-03 12:31:47,530 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060686
+2025-03-03 12:31:47,530 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000140
+2025-03-03 12:31:47,530 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,533 - optimization - INFO - [ga_solver.py:209] - Generation 69/200 - Best: -0.060077, Avg: -0.060079, Diversity: 0.000133
+2025-03-03 12:31:47,533 - optimization - INFO - [base_ga_solver.py:367] - Generation 67/200:
+2025-03-03 12:31:47,533 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060681
+2025-03-03 12:31:47,534 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060684
+2025-03-03 12:31:47,534 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000127
+2025-03-03 12:31:47,534 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,537 - optimization - INFO - [ga_solver.py:209] - Generation 70/200 - Best: -0.060076, Avg: -0.060078, Diversity: 0.000130
+2025-03-03 12:31:47,537 - optimization - INFO - [base_ga_solver.py:367] - Generation 68/200:
+2025-03-03 12:31:47,537 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060677
+2025-03-03 12:31:47,537 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060682
+2025-03-03 12:31:47,537 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000110
+2025-03-03 12:31:47,537 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,541 - optimization - INFO - [ga_solver.py:209] - Generation 71/200 - Best: -0.060075, Avg: -0.060077, Diversity: 0.000127
+2025-03-03 12:31:47,541 - optimization - INFO - [base_ga_solver.py:367] - Generation 69/200:
+2025-03-03 12:31:47,541 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060676
+2025-03-03 12:31:47,541 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060680
+2025-03-03 12:31:47,541 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000123
+2025-03-03 12:31:47,541 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,544 - optimization - INFO - [ga_solver.py:209] - Generation 72/200 - Best: -0.060074, Avg: -0.060076, Diversity: 0.000122
+2025-03-03 12:31:47,545 - optimization - INFO - [base_ga_solver.py:367] - Generation 70/200:
+2025-03-03 12:31:47,545 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060674
+2025-03-03 12:31:47,545 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060679
+2025-03-03 12:31:47,545 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,545 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,548 - optimization - INFO - [ga_solver.py:209] - Generation 73/200 - Best: -0.060073, Avg: -0.060075, Diversity: 0.000118
+2025-03-03 12:31:47,549 - optimization - INFO - [base_ga_solver.py:367] - Generation 71/200:
+2025-03-03 12:31:47,549 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060674
+2025-03-03 12:31:47,549 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060678
+2025-03-03 12:31:47,549 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000117
+2025-03-03 12:31:47,549 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,552 - optimization - INFO - [ga_solver.py:209] - Generation 74/200 - Best: -0.060072, Avg: -0.060074, Diversity: 0.000101
+2025-03-03 12:31:47,553 - optimization - INFO - [base_ga_solver.py:367] - Generation 72/200:
+2025-03-03 12:31:47,553 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060673
+2025-03-03 12:31:47,553 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060677
+2025-03-03 12:31:47,553 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:47,553 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,555 - optimization - INFO - [ga_solver.py:209] - Generation 75/200 - Best: -0.060071, Avg: -0.060073, Diversity: 0.000084
+2025-03-03 12:31:47,557 - optimization - INFO - [base_ga_solver.py:367] - Generation 73/200:
+2025-03-03 12:31:47,557 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060671
+2025-03-03 12:31:47,557 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060676
+2025-03-03 12:31:47,557 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000109
+2025-03-03 12:31:47,557 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,559 - optimization - INFO - [ga_solver.py:209] - Generation 76/200 - Best: -0.060070, Avg: -0.060073, Diversity: 0.000100
+2025-03-03 12:31:47,561 - optimization - INFO - [base_ga_solver.py:367] - Generation 74/200:
+2025-03-03 12:31:47,561 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060671
+2025-03-03 12:31:47,561 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060675
+2025-03-03 12:31:47,561 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,561 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,563 - optimization - INFO - [ga_solver.py:209] - Generation 77/200 - Best: -0.060070, Avg: -0.060072, Diversity: 0.000102
+2025-03-03 12:31:47,565 - optimization - INFO - [base_ga_solver.py:367] - Generation 75/200:
+2025-03-03 12:31:47,565 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060669
+2025-03-03 12:31:47,565 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060673
+2025-03-03 12:31:47,565 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000103
+2025-03-03 12:31:47,565 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,567 - optimization - INFO - [ga_solver.py:209] - Generation 78/200 - Best: -0.060069, Avg: -0.060071, Diversity: 0.000105
+2025-03-03 12:31:47,569 - optimization - INFO - [base_ga_solver.py:367] - Generation 76/200:
+2025-03-03 12:31:47,569 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060668
+2025-03-03 12:31:47,569 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060672
+2025-03-03 12:31:47,569 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,569 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,571 - optimization - INFO - [ga_solver.py:209] - Generation 79/200 - Best: -0.060068, Avg: -0.060070, Diversity: 0.000112
+2025-03-03 12:31:47,572 - optimization - INFO - [base_ga_solver.py:367] - Generation 77/200:
+2025-03-03 12:31:47,572 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060666
+2025-03-03 12:31:47,572 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060670
+2025-03-03 12:31:47,573 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,573 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,575 - optimization - INFO - [ga_solver.py:209] - Generation 80/200 - Best: -0.060068, Avg: -0.060070, Diversity: 0.000125
+2025-03-03 12:31:47,576 - optimization - INFO - [base_ga_solver.py:367] - Generation 78/200:
+2025-03-03 12:31:47,576 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060663
+2025-03-03 12:31:47,576 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060669
+2025-03-03 12:31:47,576 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000102
+2025-03-03 12:31:47,577 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,578 - optimization - INFO - [ga_solver.py:209] - Generation 81/200 - Best: -0.060068, Avg: -0.060069, Diversity: 0.000122
+2025-03-03 12:31:47,580 - optimization - INFO - [base_ga_solver.py:367] - Generation 79/200:
+2025-03-03 12:31:47,580 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060663
+2025-03-03 12:31:47,580 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060667
+2025-03-03 12:31:47,580 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000099
+2025-03-03 12:31:47,580 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,582 - optimization - INFO - [ga_solver.py:209] - Generation 82/200 - Best: -0.060067, Avg: -0.060068, Diversity: 0.000121
+2025-03-03 12:31:47,584 - optimization - INFO - [base_ga_solver.py:367] - Generation 80/200:
+2025-03-03 12:31:47,584 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060662
+2025-03-03 12:31:47,584 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060666
+2025-03-03 12:31:47,584 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000104
+2025-03-03 12:31:47,584 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,586 - optimization - INFO - [ga_solver.py:209] - Generation 83/200 - Best: -0.060065, Avg: -0.060068, Diversity: 0.000109
+2025-03-03 12:31:47,588 - optimization - INFO - [base_ga_solver.py:367] - Generation 81/200:
+2025-03-03 12:31:47,588 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060662
+2025-03-03 12:31:47,588 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060665
+2025-03-03 12:31:47,588 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000113
+2025-03-03 12:31:47,588 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,590 - optimization - INFO - [ga_solver.py:209] - Generation 84/200 - Best: -0.060064, Avg: -0.060067, Diversity: 0.000119
+2025-03-03 12:31:47,592 - optimization - INFO - [base_ga_solver.py:367] - Generation 82/200:
+2025-03-03 12:31:47,592 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060660
+2025-03-03 12:31:47,592 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060664
+2025-03-03 12:31:47,592 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,592 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,594 - optimization - INFO - [ga_solver.py:209] - Generation 85/200 - Best: -0.060064, Avg: -0.060066, Diversity: 0.000103
+2025-03-03 12:31:47,596 - optimization - INFO - [base_ga_solver.py:367] - Generation 83/200:
+2025-03-03 12:31:47,596 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060659
+2025-03-03 12:31:47,596 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060663
+2025-03-03 12:31:47,596 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:47,596 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,598 - optimization - INFO - [ga_solver.py:209] - Generation 86/200 - Best: -0.060063, Avg: -0.060066, Diversity: 0.000105
+2025-03-03 12:31:47,600 - optimization - INFO - [base_ga_solver.py:367] - Generation 84/200:
+2025-03-03 12:31:47,600 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060656
+2025-03-03 12:31:47,600 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060662
+2025-03-03 12:31:47,600 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,600 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,602 - optimization - INFO - [ga_solver.py:209] - Generation 87/200 - Best: -0.060062, Avg: -0.060065, Diversity: 0.000118
+2025-03-03 12:31:47,604 - optimization - INFO - [base_ga_solver.py:367] - Generation 85/200:
+2025-03-03 12:31:47,604 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060655
+2025-03-03 12:31:47,604 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060660
+2025-03-03 12:31:47,604 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000113
+2025-03-03 12:31:47,604 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,606 - optimization - INFO - [ga_solver.py:209] - Generation 88/200 - Best: -0.060062, Avg: -0.060064, Diversity: 0.000115
+2025-03-03 12:31:47,608 - optimization - INFO - [base_ga_solver.py:367] - Generation 86/200:
+2025-03-03 12:31:47,608 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060654
+2025-03-03 12:31:47,608 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060658
+2025-03-03 12:31:47,608 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000123
+2025-03-03 12:31:47,608 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,609 - optimization - INFO - [ga_solver.py:209] - Generation 89/200 - Best: -0.060060, Avg: -0.060063, Diversity: 0.000123
+2025-03-03 12:31:47,612 - optimization - INFO - [base_ga_solver.py:367] - Generation 87/200:
+2025-03-03 12:31:47,612 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060652
+2025-03-03 12:31:47,612 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060656
+2025-03-03 12:31:47,612 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000120
+2025-03-03 12:31:47,612 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,613 - optimization - INFO - [ga_solver.py:209] - Generation 90/200 - Best: -0.060059, Avg: -0.060062, Diversity: 0.000119
+2025-03-03 12:31:47,616 - optimization - INFO - [base_ga_solver.py:367] - Generation 88/200:
+2025-03-03 12:31:47,616 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060652
+2025-03-03 12:31:47,616 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060655
+2025-03-03 12:31:47,616 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000108
+2025-03-03 12:31:47,616 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,617 - optimization - INFO - [ga_solver.py:209] - Generation 91/200 - Best: -0.060059, Avg: -0.060061, Diversity: 0.000104
+2025-03-03 12:31:47,620 - optimization - INFO - [base_ga_solver.py:367] - Generation 89/200:
+2025-03-03 12:31:47,620 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060651
+2025-03-03 12:31:47,620 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060654
+2025-03-03 12:31:47,620 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000131
+2025-03-03 12:31:47,620 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,620 - optimization - INFO - [ga_solver.py:209] - Generation 92/200 - Best: -0.060058, Avg: -0.060061, Diversity: 0.000112
+2025-03-03 12:31:47,624 - optimization - INFO - [base_ga_solver.py:367] - Generation 90/200:
+2025-03-03 12:31:47,624 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060649
+2025-03-03 12:31:47,624 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060653
+2025-03-03 12:31:47,624 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000146
+2025-03-03 12:31:47,624 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,624 - optimization - INFO - [ga_solver.py:209] - Generation 93/200 - Best: -0.060057, Avg: -0.060060, Diversity: 0.000115
+2025-03-03 12:31:47,627 - optimization - INFO - [base_ga_solver.py:367] - Generation 91/200:
+2025-03-03 12:31:47,628 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060647
+2025-03-03 12:31:47,628 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060651
+2025-03-03 12:31:47,628 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000158
+2025-03-03 12:31:47,628 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,628 - optimization - INFO - [ga_solver.py:209] - Generation 94/200 - Best: -0.060057, Avg: -0.060059, Diversity: 0.000118
+2025-03-03 12:31:47,631 - optimization - INFO - [base_ga_solver.py:367] - Generation 92/200:
+2025-03-03 12:31:47,632 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060647
+2025-03-03 12:31:47,632 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060650
+2025-03-03 12:31:47,632 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000153
+2025-03-03 12:31:47,632 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,632 - optimization - INFO - [ga_solver.py:209] - Generation 95/200 - Best: -0.060055, Avg: -0.060058, Diversity: 0.000111
+2025-03-03 12:31:47,635 - optimization - INFO - [base_ga_solver.py:367] - Generation 93/200:
+2025-03-03 12:31:47,636 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060645
+2025-03-03 12:31:47,636 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060649
+2025-03-03 12:31:47,636 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000143
+2025-03-03 12:31:47,636 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,636 - optimization - INFO - [ga_solver.py:209] - Generation 96/200 - Best: -0.060055, Avg: -0.060057, Diversity: 0.000126
+2025-03-03 12:31:47,639 - optimization - INFO - [base_ga_solver.py:367] - Generation 94/200:
+2025-03-03 12:31:47,639 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060645
+2025-03-03 12:31:47,639 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060648
+2025-03-03 12:31:47,640 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000119
+2025-03-03 12:31:47,640 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,640 - optimization - INFO - [ga_solver.py:209] - Generation 97/200 - Best: -0.060055, Avg: -0.060056, Diversity: 0.000113
+2025-03-03 12:31:47,643 - optimization - INFO - [base_ga_solver.py:367] - Generation 95/200:
+2025-03-03 12:31:47,644 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060642
+2025-03-03 12:31:47,644 - optimization - INFO - [ga_solver.py:209] - Generation 98/200 - Best: -0.060054, Avg: -0.060056, Diversity: 0.000114
+2025-03-03 12:31:47,644 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060646
+2025-03-03 12:31:47,644 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000102
+2025-03-03 12:31:47,644 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,647 - optimization - INFO - [ga_solver.py:209] - Generation 99/200 - Best: -0.060054, Avg: -0.060055, Diversity: 0.000109
+2025-03-03 12:31:47,647 - optimization - INFO - [base_ga_solver.py:367] - Generation 96/200:
+2025-03-03 12:31:47,647 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060640
+2025-03-03 12:31:47,648 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060645
+2025-03-03 12:31:47,648 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000095
+2025-03-03 12:31:47,648 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,651 - optimization - INFO - [ga_solver.py:209] - Generation 100/200 - Best: -0.060053, Avg: -0.060055, Diversity: 0.000120
+2025-03-03 12:31:47,651 - optimization - INFO - [base_ga_solver.py:367] - Generation 97/200:
+2025-03-03 12:31:47,652 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060640
+2025-03-03 12:31:47,652 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060644
+2025-03-03 12:31:47,652 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000105
+2025-03-03 12:31:47,652 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,655 - optimization - INFO - [ga_solver.py:209] - Generation 101/200 - Best: -0.060053, Avg: -0.060054, Diversity: 0.000122
+2025-03-03 12:31:47,655 - optimization - INFO - [base_ga_solver.py:367] - Generation 98/200:
+2025-03-03 12:31:47,655 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060638
+2025-03-03 12:31:47,655 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060642
+2025-03-03 12:31:47,655 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,656 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,659 - optimization - INFO - [ga_solver.py:209] - Generation 102/200 - Best: -0.060052, Avg: -0.060054, Diversity: 0.000136
+2025-03-03 12:31:47,659 - optimization - INFO - [base_ga_solver.py:367] - Generation 99/200:
+2025-03-03 12:31:47,659 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060638
+2025-03-03 12:31:47,659 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060641
+2025-03-03 12:31:47,659 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,659 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,662 - optimization - INFO - [ga_solver.py:209] - Generation 103/200 - Best: -0.060052, Avg: -0.060053, Diversity: 0.000131
+2025-03-03 12:31:47,663 - optimization - INFO - [base_ga_solver.py:367] - Generation 100/200:
+2025-03-03 12:31:47,663 - optimization - INFO - [parallel_solver.py:68] - ParticleSwarmOptimizer completed successfully
+2025-03-03 12:31:47,663 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060635
+2025-03-03 12:31:47,663 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060640
+2025-03-03 12:31:47,663 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000105
+2025-03-03 12:31:47,663 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,666 - optimization - INFO - [ga_solver.py:209] - Generation 104/200 - Best: -0.060051, Avg: -0.060052, Diversity: 0.000108
+2025-03-03 12:31:47,667 - optimization - INFO - [base_ga_solver.py:367] - Generation 101/200:
+2025-03-03 12:31:47,667 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060635
+2025-03-03 12:31:47,667 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060639
+2025-03-03 12:31:47,667 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,667 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,670 - optimization - INFO - [ga_solver.py:209] - Generation 105/200 - Best: -0.060050, Avg: -0.060052, Diversity: 0.000115
+2025-03-03 12:31:47,671 - optimization - INFO - [base_ga_solver.py:367] - Generation 102/200:
+2025-03-03 12:31:47,671 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060634
+2025-03-03 12:31:47,671 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060638
+2025-03-03 12:31:47,671 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000139
+2025-03-03 12:31:47,671 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,674 - optimization - INFO - [ga_solver.py:209] - Generation 106/200 - Best: -0.060049, Avg: -0.060051, Diversity: 0.000112
+2025-03-03 12:31:47,675 - optimization - INFO - [base_ga_solver.py:367] - Generation 103/200:
+2025-03-03 12:31:47,675 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060634
+2025-03-03 12:31:47,675 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060637
+2025-03-03 12:31:47,675 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000130
+2025-03-03 12:31:47,675 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,677 - optimization - INFO - [ga_solver.py:209] - Generation 107/200 - Best: -0.060048, Avg: -0.060051, Diversity: 0.000117
+2025-03-03 12:31:47,678 - optimization - INFO - [base_ga_solver.py:367] - Generation 104/200:
+2025-03-03 12:31:47,679 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060633
+2025-03-03 12:31:47,679 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060636
+2025-03-03 12:31:47,679 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,679 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,681 - optimization - INFO - [ga_solver.py:209] - Generation 108/200 - Best: -0.060048, Avg: -0.060050, Diversity: 0.000111
+2025-03-03 12:31:47,682 - optimization - INFO - [base_ga_solver.py:367] - Generation 105/200:
+2025-03-03 12:31:47,682 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060632
+2025-03-03 12:31:47,682 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060635
+2025-03-03 12:31:47,682 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000091
+2025-03-03 12:31:47,682 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,685 - optimization - INFO - [ga_solver.py:209] - Generation 109/200 - Best: -0.060048, Avg: -0.060049, Diversity: 0.000114
+2025-03-03 12:31:47,686 - optimization - INFO - [base_ga_solver.py:367] - Generation 106/200:
+2025-03-03 12:31:47,686 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060629
+2025-03-03 12:31:47,686 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060633
+2025-03-03 12:31:47,686 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000110
+2025-03-03 12:31:47,686 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,689 - optimization - INFO - [ga_solver.py:209] - Generation 110/200 - Best: -0.060047, Avg: -0.060049, Diversity: 0.000117
+2025-03-03 12:31:47,690 - optimization - INFO - [base_ga_solver.py:367] - Generation 107/200:
+2025-03-03 12:31:47,690 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060628
+2025-03-03 12:31:47,690 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060632
+2025-03-03 12:31:47,690 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000116
+2025-03-03 12:31:47,690 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,692 - optimization - INFO - [ga_solver.py:209] - Generation 111/200 - Best: -0.060047, Avg: -0.060048, Diversity: 0.000117
+2025-03-03 12:31:47,694 - optimization - INFO - [base_ga_solver.py:367] - Generation 108/200:
+2025-03-03 12:31:47,694 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060625
+2025-03-03 12:31:47,694 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060630
+2025-03-03 12:31:47,694 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000122
+2025-03-03 12:31:47,694 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,696 - optimization - INFO - [ga_solver.py:209] - Generation 112/200 - Best: -0.060045, Avg: -0.060047, Diversity: 0.000133
+2025-03-03 12:31:47,698 - optimization - INFO - [base_ga_solver.py:367] - Generation 109/200:
+2025-03-03 12:31:47,698 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060624
+2025-03-03 12:31:47,698 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060628
+2025-03-03 12:31:47,698 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:47,698 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,700 - optimization - INFO - [ga_solver.py:209] - Generation 113/200 - Best: -0.060044, Avg: -0.060047, Diversity: 0.000126
+2025-03-03 12:31:47,702 - optimization - INFO - [base_ga_solver.py:367] - Generation 110/200:
+2025-03-03 12:31:47,702 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060621
+2025-03-03 12:31:47,702 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060627
+2025-03-03 12:31:47,702 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000108
+2025-03-03 12:31:47,702 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,704 - optimization - INFO - [ga_solver.py:209] - Generation 114/200 - Best: -0.060044, Avg: -0.060046, Diversity: 0.000121
+2025-03-03 12:31:47,706 - optimization - INFO - [base_ga_solver.py:367] - Generation 111/200:
+2025-03-03 12:31:47,706 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060620
+2025-03-03 12:31:47,706 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060625
+2025-03-03 12:31:47,706 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:47,706 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,707 - optimization - INFO - [ga_solver.py:209] - Generation 115/200 - Best: -0.060043, Avg: -0.060045, Diversity: 0.000116
+2025-03-03 12:31:47,710 - optimization - INFO - [base_ga_solver.py:367] - Generation 112/200:
+2025-03-03 12:31:47,710 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060619
+2025-03-03 12:31:47,710 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060624
+2025-03-03 12:31:47,710 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000121
+2025-03-03 12:31:47,710 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,711 - optimization - INFO - [ga_solver.py:209] - Generation 116/200 - Best: -0.060042, Avg: -0.060044, Diversity: 0.000101
+2025-03-03 12:31:47,712 - optimization - INFO - [parallel_solver.py:68] - DifferentialEvolutionSolver completed successfully
+2025-03-03 12:31:47,714 - optimization - INFO - [base_ga_solver.py:367] - Generation 113/200:
+2025-03-03 12:31:47,714 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060618
+2025-03-03 12:31:47,714 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060622
+2025-03-03 12:31:47,714 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000127
+2025-03-03 12:31:47,714 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,715 - optimization - INFO - [ga_solver.py:209] - Generation 117/200 - Best: -0.060041, Avg: -0.060044, Diversity: 0.000114
+2025-03-03 12:31:47,717 - optimization - INFO - [base_ga_solver.py:367] - Generation 114/200:
+2025-03-03 12:31:47,717 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060617
+2025-03-03 12:31:47,717 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060621
+2025-03-03 12:31:47,717 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000133
+2025-03-03 12:31:47,717 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,718 - optimization - INFO - [ga_solver.py:209] - Generation 118/200 - Best: -0.060040, Avg: -0.060043, Diversity: 0.000126
+2025-03-03 12:31:47,721 - optimization - INFO - [base_ga_solver.py:367] - Generation 115/200:
+2025-03-03 12:31:47,721 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060616
+2025-03-03 12:31:47,721 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060619
+2025-03-03 12:31:47,721 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000122
+2025-03-03 12:31:47,721 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,722 - optimization - INFO - [ga_solver.py:209] - Generation 119/200 - Best: -0.060040, Avg: -0.060042, Diversity: 0.000131
+2025-03-03 12:31:47,725 - optimization - INFO - [base_ga_solver.py:367] - Generation 116/200:
+2025-03-03 12:31:47,725 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060615
+2025-03-03 12:31:47,725 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060618
+2025-03-03 12:31:47,725 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000118
+2025-03-03 12:31:47,725 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,726 - optimization - INFO - [ga_solver.py:209] - Generation 120/200 - Best: -0.060038, Avg: -0.060041, Diversity: 0.000135
+2025-03-03 12:31:47,729 - optimization - INFO - [base_ga_solver.py:367] - Generation 117/200:
+2025-03-03 12:31:47,729 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060614
+2025-03-03 12:31:47,729 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060617
+2025-03-03 12:31:47,729 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000118
+2025-03-03 12:31:47,729 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,729 - optimization - INFO - [ga_solver.py:209] - Generation 121/200 - Best: -0.060037, Avg: -0.060040, Diversity: 0.000137
+2025-03-03 12:31:47,733 - optimization - INFO - [base_ga_solver.py:367] - Generation 118/200:
+2025-03-03 12:31:47,733 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060613
+2025-03-03 12:31:47,733 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060616
+2025-03-03 12:31:47,733 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000114
+2025-03-03 12:31:47,733 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,733 - optimization - INFO - [ga_solver.py:209] - Generation 122/200 - Best: -0.060037, Avg: -0.060039, Diversity: 0.000137
+2025-03-03 12:31:47,737 - optimization - INFO - [base_ga_solver.py:367] - Generation 119/200:
+2025-03-03 12:31:47,737 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060612
+2025-03-03 12:31:47,737 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060615
+2025-03-03 12:31:47,737 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000116
+2025-03-03 12:31:47,737 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,737 - optimization - INFO - [ga_solver.py:209] - Generation 123/200 - Best: -0.060037, Avg: -0.060039, Diversity: 0.000116
+2025-03-03 12:31:47,740 - optimization - INFO - [base_ga_solver.py:367] - Generation 120/200:
+2025-03-03 12:31:47,740 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060611
+2025-03-03 12:31:47,740 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060614
+2025-03-03 12:31:47,740 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000122
+2025-03-03 12:31:47,740 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,741 - optimization - INFO - [ga_solver.py:209] - Generation 124/200 - Best: -0.060036, Avg: -0.060038, Diversity: 0.000113
+2025-03-03 12:31:47,744 - optimization - INFO - [base_ga_solver.py:367] - Generation 121/200:
+2025-03-03 12:31:47,744 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060609
+2025-03-03 12:31:47,744 - optimization - INFO - [ga_solver.py:209] - Generation 125/200 - Best: -0.060035, Avg: -0.060038, Diversity: 0.000104
+2025-03-03 12:31:47,744 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060613
+2025-03-03 12:31:47,744 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000135
+2025-03-03 12:31:47,744 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,748 - optimization - INFO - [ga_solver.py:209] - Generation 126/200 - Best: -0.060034, Avg: -0.060037, Diversity: 0.000114
+2025-03-03 12:31:47,748 - optimization - INFO - [base_ga_solver.py:367] - Generation 122/200:
+2025-03-03 12:31:47,748 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060609
+2025-03-03 12:31:47,748 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060612
+2025-03-03 12:31:47,748 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000120
+2025-03-03 12:31:47,748 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,751 - optimization - INFO - [ga_solver.py:209] - Generation 127/200 - Best: -0.060034, Avg: -0.060036, Diversity: 0.000123
+2025-03-03 12:31:47,752 - optimization - INFO - [base_ga_solver.py:367] - Generation 123/200:
+2025-03-03 12:31:47,752 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060607
+2025-03-03 12:31:47,752 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060610
+2025-03-03 12:31:47,752 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000108
+2025-03-03 12:31:47,752 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,755 - optimization - INFO - [ga_solver.py:209] - Generation 128/200 - Best: -0.060034, Avg: -0.060035, Diversity: 0.000113
+2025-03-03 12:31:47,756 - optimization - INFO - [base_ga_solver.py:367] - Generation 124/200:
+2025-03-03 12:31:47,756 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060603
+2025-03-03 12:31:47,756 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060609
+2025-03-03 12:31:47,756 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000118
+2025-03-03 12:31:47,756 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,759 - optimization - INFO - [ga_solver.py:209] - Generation 129/200 - Best: -0.060032, Avg: -0.060035, Diversity: 0.000118
+2025-03-03 12:31:47,759 - optimization - INFO - [base_ga_solver.py:367] - Generation 125/200:
+2025-03-03 12:31:47,759 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060603
+2025-03-03 12:31:47,759 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060608
+2025-03-03 12:31:47,760 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000119
+2025-03-03 12:31:47,760 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,763 - optimization - INFO - [ga_solver.py:209] - Generation 130/200 - Best: -0.060032, Avg: -0.060034, Diversity: 0.000101
+2025-03-03 12:31:47,763 - optimization - INFO - [base_ga_solver.py:367] - Generation 126/200:
+2025-03-03 12:31:47,763 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060603
+2025-03-03 12:31:47,763 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060607
+2025-03-03 12:31:47,763 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:47,763 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,766 - optimization - INFO - [ga_solver.py:209] - Generation 131/200 - Best: -0.060031, Avg: -0.060033, Diversity: 0.000107
+2025-03-03 12:31:47,767 - optimization - INFO - [base_ga_solver.py:367] - Generation 127/200:
+2025-03-03 12:31:47,767 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060602
+2025-03-03 12:31:47,767 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060605
+2025-03-03 12:31:47,767 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000125
+2025-03-03 12:31:47,767 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,770 - optimization - INFO - [ga_solver.py:209] - Generation 132/200 - Best: -0.060031, Avg: -0.060033, Diversity: 0.000113
+2025-03-03 12:31:47,771 - optimization - INFO - [base_ga_solver.py:367] - Generation 128/200:
+2025-03-03 12:31:47,771 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060599
+2025-03-03 12:31:47,771 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060604
+2025-03-03 12:31:47,771 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000103
+2025-03-03 12:31:47,771 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,774 - optimization - INFO - [ga_solver.py:209] - Generation 133/200 - Best: -0.060031, Avg: -0.060032, Diversity: 0.000113
+2025-03-03 12:31:47,775 - optimization - INFO - [base_ga_solver.py:367] - Generation 129/200:
+2025-03-03 12:31:47,775 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060598
+2025-03-03 12:31:47,775 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060602
+2025-03-03 12:31:47,775 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000110
+2025-03-03 12:31:47,775 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,777 - optimization - INFO - [ga_solver.py:209] - Generation 134/200 - Best: -0.060030, Avg: -0.060032, Diversity: 0.000102
+2025-03-03 12:31:47,778 - optimization - INFO - [base_ga_solver.py:367] - Generation 130/200:
+2025-03-03 12:31:47,778 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060598
+2025-03-03 12:31:47,778 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060601
+2025-03-03 12:31:47,779 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,779 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,781 - optimization - INFO - [ga_solver.py:209] - Generation 135/200 - Best: -0.060029, Avg: -0.060031, Diversity: 0.000102
+2025-03-03 12:31:47,782 - optimization - INFO - [base_ga_solver.py:367] - Generation 131/200:
+2025-03-03 12:31:47,782 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060597
+2025-03-03 12:31:47,782 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060600
+2025-03-03 12:31:47,782 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:47,782 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,785 - optimization - INFO - [ga_solver.py:209] - Generation 136/200 - Best: -0.060029, Avg: -0.060030, Diversity: 0.000121
+2025-03-03 12:31:47,786 - optimization - INFO - [base_ga_solver.py:367] - Generation 132/200:
+2025-03-03 12:31:47,786 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060595
+2025-03-03 12:31:47,786 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060598
+2025-03-03 12:31:47,786 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000101
+2025-03-03 12:31:47,786 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,788 - optimization - INFO - [ga_solver.py:209] - Generation 137/200 - Best: -0.060028, Avg: -0.060030, Diversity: 0.000109
+2025-03-03 12:31:47,790 - optimization - INFO - [base_ga_solver.py:367] - Generation 133/200:
+2025-03-03 12:31:47,790 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060593
+2025-03-03 12:31:47,790 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060597
+2025-03-03 12:31:47,790 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000108
+2025-03-03 12:31:47,790 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,792 - optimization - INFO - [ga_solver.py:209] - Generation 138/200 - Best: -0.060027, Avg: -0.060029, Diversity: 0.000108
+2025-03-03 12:31:47,794 - optimization - INFO - [base_ga_solver.py:367] - Generation 134/200:
+2025-03-03 12:31:47,794 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060591
+2025-03-03 12:31:47,794 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060596
+2025-03-03 12:31:47,794 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000125
+2025-03-03 12:31:47,794 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,796 - optimization - INFO - [ga_solver.py:209] - Generation 139/200 - Best: -0.060027, Avg: -0.060028, Diversity: 0.000094
+2025-03-03 12:31:47,798 - optimization - INFO - [base_ga_solver.py:367] - Generation 135/200:
+2025-03-03 12:31:47,798 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060589
+2025-03-03 12:31:47,798 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060594
+2025-03-03 12:31:47,798 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000142
+2025-03-03 12:31:47,798 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,799 - optimization - INFO - [ga_solver.py:209] - Generation 140/200 - Best: -0.060026, Avg: -0.060028, Diversity: 0.000118
+2025-03-03 12:31:47,801 - optimization - INFO - [base_ga_solver.py:367] - Generation 136/200:
+2025-03-03 12:31:47,801 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060588
+2025-03-03 12:31:47,801 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060593
+2025-03-03 12:31:47,801 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000136
+2025-03-03 12:31:47,802 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,803 - optimization - INFO - [ga_solver.py:209] - Generation 141/200 - Best: -0.060026, Avg: -0.060027, Diversity: 0.000119
+2025-03-03 12:31:47,805 - optimization - INFO - [base_ga_solver.py:367] - Generation 137/200:
+2025-03-03 12:31:47,805 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060587
+2025-03-03 12:31:47,805 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060590
+2025-03-03 12:31:47,805 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000133
+2025-03-03 12:31:47,805 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,807 - optimization - INFO - [ga_solver.py:209] - Generation 142/200 - Best: -0.060025, Avg: -0.060026, Diversity: 0.000111
+2025-03-03 12:31:47,809 - optimization - INFO - [base_ga_solver.py:367] - Generation 138/200:
+2025-03-03 12:31:47,809 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060585
+2025-03-03 12:31:47,809 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060589
+2025-03-03 12:31:47,809 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000128
+2025-03-03 12:31:47,809 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,810 - optimization - INFO - [ga_solver.py:209] - Generation 143/200 - Best: -0.060025, Avg: -0.060026, Diversity: 0.000120
+2025-03-03 12:31:47,813 - optimization - INFO - [base_ga_solver.py:367] - Generation 139/200:
+2025-03-03 12:31:47,813 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060584
+2025-03-03 12:31:47,813 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060587
+2025-03-03 12:31:47,813 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000142
+2025-03-03 12:31:47,813 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,814 - optimization - INFO - [ga_solver.py:209] - Generation 144/200 - Best: -0.060024, Avg: -0.060025, Diversity: 0.000109
+2025-03-03 12:31:47,817 - optimization - INFO - [base_ga_solver.py:367] - Generation 140/200:
+2025-03-03 12:31:47,817 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060584
+2025-03-03 12:31:47,817 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060586
+2025-03-03 12:31:47,817 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000116
+2025-03-03 12:31:47,817 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,818 - optimization - INFO - [ga_solver.py:209] - Generation 145/200 - Best: -0.060023, Avg: -0.060025, Diversity: 0.000110
+2025-03-03 12:31:47,821 - optimization - INFO - [base_ga_solver.py:367] - Generation 141/200:
+2025-03-03 12:31:47,821 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060582
+2025-03-03 12:31:47,821 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060585
+2025-03-03 12:31:47,821 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000108
+2025-03-03 12:31:47,821 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,821 - optimization - INFO - [ga_solver.py:209] - Generation 146/200 - Best: -0.060022, Avg: -0.060024, Diversity: 0.000092
+2025-03-03 12:31:47,824 - optimization - INFO - [base_ga_solver.py:367] - Generation 142/200:
+2025-03-03 12:31:47,824 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060581
+2025-03-03 12:31:47,824 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060584
+2025-03-03 12:31:47,824 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:47,825 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,825 - optimization - INFO - [ga_solver.py:209] - Generation 147/200 - Best: -0.060021, Avg: -0.060024, Diversity: 0.000107
+2025-03-03 12:31:47,828 - optimization - INFO - [base_ga_solver.py:367] - Generation 143/200:
+2025-03-03 12:31:47,828 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060580
+2025-03-03 12:31:47,828 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060583
+2025-03-03 12:31:47,828 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000119
+2025-03-03 12:31:47,828 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,829 - optimization - INFO - [ga_solver.py:209] - Generation 148/200 - Best: -0.060021, Avg: -0.060023, Diversity: 0.000116
+2025-03-03 12:31:47,832 - optimization - INFO - [base_ga_solver.py:367] - Generation 144/200:
+2025-03-03 12:31:47,832 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060579
+2025-03-03 12:31:47,832 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060582
+2025-03-03 12:31:47,832 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000113
+2025-03-03 12:31:47,832 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,832 - optimization - INFO - [ga_solver.py:209] - Generation 149/200 - Best: -0.060021, Avg: -0.060022, Diversity: 0.000091
+2025-03-03 12:31:47,836 - optimization - INFO - [base_ga_solver.py:367] - Generation 145/200:
+2025-03-03 12:31:47,836 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060578
+2025-03-03 12:31:47,836 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060581
+2025-03-03 12:31:47,836 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000104
+2025-03-03 12:31:47,836 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,836 - optimization - INFO - [ga_solver.py:209] - Generation 150/200 - Best: -0.060020, Avg: -0.060022, Diversity: 0.000092
+2025-03-03 12:31:47,840 - optimization - INFO - [base_ga_solver.py:367] - Generation 146/200:
+2025-03-03 12:31:47,840 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060577
+2025-03-03 12:31:47,840 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060580
+2025-03-03 12:31:47,840 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000104
+2025-03-03 12:31:47,840 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,840 - optimization - INFO - [ga_solver.py:209] - Generation 151/200 - Best: -0.060020, Avg: -0.060021, Diversity: 0.000096
+2025-03-03 12:31:47,843 - optimization - INFO - [base_ga_solver.py:367] - Generation 147/200:
+2025-03-03 12:31:47,843 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060576
+2025-03-03 12:31:47,843 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060579
+2025-03-03 12:31:47,843 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000103
+2025-03-03 12:31:47,843 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,844 - optimization - INFO - [ga_solver.py:209] - Generation 152/200 - Best: -0.060019, Avg: -0.060021, Diversity: 0.000112
+2025-03-03 12:31:47,847 - optimization - INFO - [base_ga_solver.py:367] - Generation 148/200:
+2025-03-03 12:31:47,847 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060575
+2025-03-03 12:31:47,847 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060578
+2025-03-03 12:31:47,847 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000098
+2025-03-03 12:31:47,847 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,847 - optimization - INFO - [ga_solver.py:209] - Generation 153/200 - Best: -0.060018, Avg: -0.060020, Diversity: 0.000098
+2025-03-03 12:31:47,851 - optimization - INFO - [base_ga_solver.py:367] - Generation 149/200:
+2025-03-03 12:31:47,851 - optimization - INFO - [ga_solver.py:209] - Generation 154/200 - Best: -0.060017, Avg: -0.060019, Diversity: 0.000100
+2025-03-03 12:31:47,851 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060574
+2025-03-03 12:31:47,851 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060577
+2025-03-03 12:31:47,851 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000113
+2025-03-03 12:31:47,851 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,855 - optimization - INFO - [ga_solver.py:209] - Generation 155/200 - Best: -0.060017, Avg: -0.060018, Diversity: 0.000103
+2025-03-03 12:31:47,855 - optimization - INFO - [base_ga_solver.py:367] - Generation 150/200:
+2025-03-03 12:31:47,855 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060574
+2025-03-03 12:31:47,855 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060576
+2025-03-03 12:31:47,855 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000088
+2025-03-03 12:31:47,855 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,858 - optimization - INFO - [ga_solver.py:209] - Generation 156/200 - Best: -0.060017, Avg: -0.060018, Diversity: 0.000109
+2025-03-03 12:31:47,858 - optimization - INFO - [base_ga_solver.py:367] - Generation 151/200:
+2025-03-03 12:31:47,859 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060572
+2025-03-03 12:31:47,859 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060575
+2025-03-03 12:31:47,859 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000089
+2025-03-03 12:31:47,859 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,862 - optimization - INFO - [ga_solver.py:209] - Generation 157/200 - Best: -0.060016, Avg: -0.060017, Diversity: 0.000123
+2025-03-03 12:31:47,862 - optimization - INFO - [base_ga_solver.py:367] - Generation 152/200:
+2025-03-03 12:31:47,862 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060571
+2025-03-03 12:31:47,862 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060574
+2025-03-03 12:31:47,862 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000097
+2025-03-03 12:31:47,862 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,866 - optimization - INFO - [ga_solver.py:209] - Generation 158/200 - Best: -0.060016, Avg: -0.060017, Diversity: 0.000108
+2025-03-03 12:31:47,866 - optimization - INFO - [base_ga_solver.py:367] - Generation 153/200:
+2025-03-03 12:31:47,866 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060571
+2025-03-03 12:31:47,866 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060573
+2025-03-03 12:31:47,866 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000088
+2025-03-03 12:31:47,866 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,869 - optimization - INFO - [ga_solver.py:209] - Generation 159/200 - Best: -0.060015, Avg: -0.060016, Diversity: 0.000097
+2025-03-03 12:31:47,870 - optimization - INFO - [base_ga_solver.py:367] - Generation 154/200:
+2025-03-03 12:31:47,870 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060569
+2025-03-03 12:31:47,870 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060572
+2025-03-03 12:31:47,870 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,870 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,873 - optimization - INFO - [ga_solver.py:209] - Generation 160/200 - Best: -0.060014, Avg: -0.060016, Diversity: 0.000105
+2025-03-03 12:31:47,874 - optimization - INFO - [base_ga_solver.py:367] - Generation 155/200:
+2025-03-03 12:31:47,874 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060568
+2025-03-03 12:31:47,874 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060571
+2025-03-03 12:31:47,874 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000116
+2025-03-03 12:31:47,874 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,877 - optimization - INFO - [ga_solver.py:209] - Generation 161/200 - Best: -0.060013, Avg: -0.060015, Diversity: 0.000113
+2025-03-03 12:31:47,877 - optimization - INFO - [base_ga_solver.py:367] - Generation 156/200:
+2025-03-03 12:31:47,877 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060566
+2025-03-03 12:31:47,877 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060570
+2025-03-03 12:31:47,878 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000109
+2025-03-03 12:31:47,878 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,880 - optimization - INFO - [ga_solver.py:209] - Generation 162/200 - Best: -0.060013, Avg: -0.060014, Diversity: 0.000103
+2025-03-03 12:31:47,881 - optimization - INFO - [base_ga_solver.py:367] - Generation 157/200:
+2025-03-03 12:31:47,881 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060566
+2025-03-03 12:31:47,881 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060569
+2025-03-03 12:31:47,881 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000116
+2025-03-03 12:31:47,882 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,884 - optimization - INFO - [ga_solver.py:209] - Generation 163/200 - Best: -0.060012, Avg: -0.060014, Diversity: 0.000112
+2025-03-03 12:31:47,885 - optimization - INFO - [base_ga_solver.py:367] - Generation 158/200:
+2025-03-03 12:31:47,885 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060565
+2025-03-03 12:31:47,885 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060568
+2025-03-03 12:31:47,885 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000092
+2025-03-03 12:31:47,885 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,888 - optimization - INFO - [ga_solver.py:209] - Generation 164/200 - Best: -0.060011, Avg: -0.060013, Diversity: 0.000111
+2025-03-03 12:31:47,889 - optimization - INFO - [base_ga_solver.py:367] - Generation 159/200:
+2025-03-03 12:31:47,889 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060563
+2025-03-03 12:31:47,889 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060567
+2025-03-03 12:31:47,889 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000103
+2025-03-03 12:31:47,889 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,891 - optimization - INFO - [ga_solver.py:209] - Generation 165/200 - Best: -0.060010, Avg: -0.060012, Diversity: 0.000104
+2025-03-03 12:31:47,893 - optimization - INFO - [base_ga_solver.py:367] - Generation 160/200:
+2025-03-03 12:31:47,893 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060562
+2025-03-03 12:31:47,893 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060565
+2025-03-03 12:31:47,893 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:47,893 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,895 - optimization - INFO - [ga_solver.py:209] - Generation 166/200 - Best: -0.060010, Avg: -0.060012, Diversity: 0.000098
+2025-03-03 12:31:47,897 - optimization - INFO - [base_ga_solver.py:367] - Generation 161/200:
+2025-03-03 12:31:47,897 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060561
+2025-03-03 12:31:47,897 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060564
+2025-03-03 12:31:47,897 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000110
+2025-03-03 12:31:47,897 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,899 - optimization - INFO - [ga_solver.py:209] - Generation 167/200 - Best: -0.060010, Avg: -0.060011, Diversity: 0.000103
+2025-03-03 12:31:47,900 - optimization - INFO - [base_ga_solver.py:367] - Generation 162/200:
+2025-03-03 12:31:47,900 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060560
+2025-03-03 12:31:47,901 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060563
+2025-03-03 12:31:47,901 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:47,901 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,902 - optimization - INFO - [ga_solver.py:209] - Generation 168/200 - Best: -0.060009, Avg: -0.060011, Diversity: 0.000107
+2025-03-03 12:31:47,904 - optimization - INFO - [base_ga_solver.py:367] - Generation 163/200:
+2025-03-03 12:31:47,904 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060560
+2025-03-03 12:31:47,904 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060562
+2025-03-03 12:31:47,904 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000092
+2025-03-03 12:31:47,904 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,906 - optimization - INFO - [ga_solver.py:209] - Generation 169/200 - Best: -0.060009, Avg: -0.060010, Diversity: 0.000092
+2025-03-03 12:31:47,908 - optimization - INFO - [base_ga_solver.py:367] - Generation 164/200:
+2025-03-03 12:31:47,908 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060556
+2025-03-03 12:31:47,908 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060561
+2025-03-03 12:31:47,908 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000108
+2025-03-03 12:31:47,908 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,910 - optimization - INFO - [ga_solver.py:209] - Generation 170/200 - Best: -0.060008, Avg: -0.060010, Diversity: 0.000094
+2025-03-03 12:31:47,912 - optimization - INFO - [base_ga_solver.py:367] - Generation 165/200:
+2025-03-03 12:31:47,912 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060556
+2025-03-03 12:31:47,912 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060560
+2025-03-03 12:31:47,912 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,912 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,913 - optimization - INFO - [ga_solver.py:209] - Generation 171/200 - Best: -0.060008, Avg: -0.060009, Diversity: 0.000111
+2025-03-03 12:31:47,916 - optimization - INFO - [base_ga_solver.py:367] - Generation 166/200:
+2025-03-03 12:31:47,916 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060552
+2025-03-03 12:31:47,916 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060558
+2025-03-03 12:31:47,916 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000124
+2025-03-03 12:31:47,916 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,917 - optimization - INFO - [ga_solver.py:209] - Generation 172/200 - Best: -0.060007, Avg: -0.060009, Diversity: 0.000120
+2025-03-03 12:31:47,920 - optimization - INFO - [base_ga_solver.py:367] - Generation 167/200:
+2025-03-03 12:31:47,920 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060552
+2025-03-03 12:31:47,920 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060557
+2025-03-03 12:31:47,920 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000120
+2025-03-03 12:31:47,920 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,921 - optimization - INFO - [ga_solver.py:209] - Generation 173/200 - Best: -0.060007, Avg: -0.060008, Diversity: 0.000103
+2025-03-03 12:31:47,924 - optimization - INFO - [base_ga_solver.py:367] - Generation 168/200:
+2025-03-03 12:31:47,924 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060552
+2025-03-03 12:31:47,924 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060556
+2025-03-03 12:31:47,924 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000111
+2025-03-03 12:31:47,924 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,925 - optimization - INFO - [ga_solver.py:209] - Generation 174/200 - Best: -0.060006, Avg: -0.060008, Diversity: 0.000107
+2025-03-03 12:31:47,927 - optimization - INFO - [base_ga_solver.py:367] - Generation 169/200:
+2025-03-03 12:31:47,927 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060550
+2025-03-03 12:31:47,927 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060555
+2025-03-03 12:31:47,927 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000127
+2025-03-03 12:31:47,928 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,928 - optimization - INFO - [ga_solver.py:209] - Generation 175/200 - Best: -0.060006, Avg: -0.060007, Diversity: 0.000104
+2025-03-03 12:31:47,931 - optimization - INFO - [base_ga_solver.py:367] - Generation 170/200:
+2025-03-03 12:31:47,931 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060547
+2025-03-03 12:31:47,931 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060553
+2025-03-03 12:31:47,931 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000131
+2025-03-03 12:31:47,931 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,932 - optimization - INFO - [ga_solver.py:209] - Generation 176/200 - Best: -0.060006, Avg: -0.060007, Diversity: 0.000109
+2025-03-03 12:31:47,935 - optimization - INFO - [base_ga_solver.py:367] - Generation 171/200:
+2025-03-03 12:31:47,935 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060547
+2025-03-03 12:31:47,935 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060551
+2025-03-03 12:31:47,935 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000119
+2025-03-03 12:31:47,935 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,936 - optimization - INFO - [ga_solver.py:209] - Generation 177/200 - Best: -0.060005, Avg: -0.060007, Diversity: 0.000125
+2025-03-03 12:31:47,939 - optimization - INFO - [base_ga_solver.py:367] - Generation 172/200:
+2025-03-03 12:31:47,939 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060547
+2025-03-03 12:31:47,939 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060550
+2025-03-03 12:31:47,939 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000109
+2025-03-03 12:31:47,939 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,940 - optimization - INFO - [ga_solver.py:209] - Generation 178/200 - Best: -0.060004, Avg: -0.060006, Diversity: 0.000127
+2025-03-03 12:31:47,943 - optimization - INFO - [base_ga_solver.py:367] - Generation 173/200:
+2025-03-03 12:31:47,943 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060546
+2025-03-03 12:31:47,943 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060549
+2025-03-03 12:31:47,943 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000098
+2025-03-03 12:31:47,943 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,943 - optimization - INFO - [ga_solver.py:209] - Generation 179/200 - Best: -0.060004, Avg: -0.060005, Diversity: 0.000116
+2025-03-03 12:31:47,947 - optimization - INFO - [base_ga_solver.py:367] - Generation 174/200:
+2025-03-03 12:31:47,947 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060545
+2025-03-03 12:31:47,947 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060548
+2025-03-03 12:31:47,947 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000101
+2025-03-03 12:31:47,947 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,947 - optimization - INFO - [ga_solver.py:209] - Generation 180/200 - Best: -0.060002, Avg: -0.060005, Diversity: 0.000126
+2025-03-03 12:31:47,951 - optimization - INFO - [base_ga_solver.py:367] - Generation 175/200:
+2025-03-03 12:31:47,951 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060544
+2025-03-03 12:31:47,951 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060547
+2025-03-03 12:31:47,951 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000098
+2025-03-03 12:31:47,951 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,951 - optimization - INFO - [ga_solver.py:209] - Generation 181/200 - Best: -0.060002, Avg: -0.060004, Diversity: 0.000128
+2025-03-03 12:31:47,954 - optimization - INFO - [ga_solver.py:209] - Generation 182/200 - Best: -0.060002, Avg: -0.060003, Diversity: 0.000115
+2025-03-03 12:31:47,955 - optimization - INFO - [base_ga_solver.py:367] - Generation 176/200:
+2025-03-03 12:31:47,955 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060543
+2025-03-03 12:31:47,955 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060546
+2025-03-03 12:31:47,955 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000098
+2025-03-03 12:31:47,955 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,958 - optimization - INFO - [ga_solver.py:209] - Generation 183/200 - Best: -0.060001, Avg: -0.060003, Diversity: 0.000116
+2025-03-03 12:31:47,958 - optimization - INFO - [base_ga_solver.py:367] - Generation 177/200:
+2025-03-03 12:31:47,958 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060541
+2025-03-03 12:31:47,958 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060545
+2025-03-03 12:31:47,958 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000112
+2025-03-03 12:31:47,958 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,962 - optimization - INFO - [ga_solver.py:209] - Generation 184/200 - Best: -0.060001, Avg: -0.060002, Diversity: 0.000128
+2025-03-03 12:31:47,962 - optimization - INFO - [base_ga_solver.py:367] - Generation 178/200:
+2025-03-03 12:31:47,962 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060541
+2025-03-03 12:31:47,962 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060544
+2025-03-03 12:31:47,962 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000124
+2025-03-03 12:31:47,962 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,966 - optimization - INFO - [ga_solver.py:209] - Generation 185/200 - Best: -0.059999, Avg: -0.060002, Diversity: 0.000120
+2025-03-03 12:31:47,966 - optimization - INFO - [base_ga_solver.py:367] - Generation 179/200:
+2025-03-03 12:31:47,966 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060540
+2025-03-03 12:31:47,966 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060543
+2025-03-03 12:31:47,966 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000118
+2025-03-03 12:31:47,966 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,969 - optimization - INFO - [ga_solver.py:209] - Generation 186/200 - Best: -0.059999, Avg: -0.060001, Diversity: 0.000121
+2025-03-03 12:31:47,970 - optimization - INFO - [base_ga_solver.py:367] - Generation 180/200:
+2025-03-03 12:31:47,970 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060539
+2025-03-03 12:31:47,970 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060542
+2025-03-03 12:31:47,970 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000120
+2025-03-03 12:31:47,970 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,973 - optimization - INFO - [ga_solver.py:209] - Generation 187/200 - Best: -0.059999, Avg: -0.060000, Diversity: 0.000122
+2025-03-03 12:31:47,973 - optimization - INFO - [base_ga_solver.py:367] - Generation 181/200:
+2025-03-03 12:31:47,973 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060538
+2025-03-03 12:31:47,973 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060541
+2025-03-03 12:31:47,974 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000121
+2025-03-03 12:31:47,974 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,977 - optimization - INFO - [ga_solver.py:209] - Generation 188/200 - Best: -0.059998, Avg: -0.060000, Diversity: 0.000116
+2025-03-03 12:31:47,977 - optimization - INFO - [base_ga_solver.py:367] - Generation 182/200:
+2025-03-03 12:31:47,977 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060536
+2025-03-03 12:31:47,977 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060540
+2025-03-03 12:31:47,977 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000101
+2025-03-03 12:31:47,977 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,980 - optimization - INFO - [ga_solver.py:209] - Generation 189/200 - Best: -0.059998, Avg: -0.059999, Diversity: 0.000119
+2025-03-03 12:31:47,981 - optimization - INFO - [base_ga_solver.py:367] - Generation 183/200:
+2025-03-03 12:31:47,981 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060536
+2025-03-03 12:31:47,981 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060539
+2025-03-03 12:31:47,981 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000096
+2025-03-03 12:31:47,981 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,984 - optimization - INFO - [ga_solver.py:209] - Generation 190/200 - Best: -0.059997, Avg: -0.059998, Diversity: 0.000134
+2025-03-03 12:31:47,985 - optimization - INFO - [base_ga_solver.py:367] - Generation 184/200:
+2025-03-03 12:31:47,985 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060535
+2025-03-03 12:31:47,985 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060537
+2025-03-03 12:31:47,985 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000101
+2025-03-03 12:31:47,985 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,988 - optimization - INFO - [ga_solver.py:209] - Generation 191/200 - Best: -0.059996, Avg: -0.059998, Diversity: 0.000134
+2025-03-03 12:31:47,989 - optimization - INFO - [base_ga_solver.py:367] - Generation 185/200:
+2025-03-03 12:31:47,989 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060534
+2025-03-03 12:31:47,989 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060536
+2025-03-03 12:31:47,989 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000101
+2025-03-03 12:31:47,989 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,992 - optimization - INFO - [ga_solver.py:209] - Generation 192/200 - Best: -0.059995, Avg: -0.059997, Diversity: 0.000127
+2025-03-03 12:31:47,992 - optimization - INFO - [base_ga_solver.py:367] - Generation 186/200:
+2025-03-03 12:31:47,993 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060533
+2025-03-03 12:31:47,993 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060535
+2025-03-03 12:31:47,993 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000095
+2025-03-03 12:31:47,993 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,995 - optimization - INFO - [ga_solver.py:209] - Generation 193/200 - Best: -0.059995, Avg: -0.059997, Diversity: 0.000115
+2025-03-03 12:31:47,996 - optimization - INFO - [base_ga_solver.py:367] - Generation 187/200:
+2025-03-03 12:31:47,996 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060532
+2025-03-03 12:31:47,996 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060534
+2025-03-03 12:31:47,996 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000109
+2025-03-03 12:31:47,996 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:47,999 - optimization - INFO - [ga_solver.py:209] - Generation 194/200 - Best: -0.059994, Avg: -0.059996, Diversity: 0.000127
+2025-03-03 12:31:48,000 - optimization - INFO - [base_ga_solver.py:367] - Generation 188/200:
+2025-03-03 12:31:48,000 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060531
+2025-03-03 12:31:48,000 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060534
+2025-03-03 12:31:48,000 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000119
+2025-03-03 12:31:48,000 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,003 - optimization - INFO - [ga_solver.py:209] - Generation 195/200 - Best: -0.059994, Avg: -0.059996, Diversity: 0.000125
+2025-03-03 12:31:48,004 - optimization - INFO - [base_ga_solver.py:367] - Generation 189/200:
+2025-03-03 12:31:48,004 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060529
+2025-03-03 12:31:48,004 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060532
+2025-03-03 12:31:48,004 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000131
+2025-03-03 12:31:48,004 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,006 - optimization - INFO - [ga_solver.py:209] - Generation 196/200 - Best: -0.059994, Avg: -0.059995, Diversity: 0.000118
+2025-03-03 12:31:48,008 - optimization - INFO - [base_ga_solver.py:367] - Generation 190/200:
+2025-03-03 12:31:48,008 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060529
+2025-03-03 12:31:48,008 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060532
+2025-03-03 12:31:48,008 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000144
+2025-03-03 12:31:48,008 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,010 - optimization - INFO - [ga_solver.py:209] - Generation 197/200 - Best: -0.059993, Avg: -0.059995, Diversity: 0.000105
+2025-03-03 12:31:48,011 - optimization - INFO - [base_ga_solver.py:367] - Generation 191/200:
+2025-03-03 12:31:48,011 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060529
+2025-03-03 12:31:48,011 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060531
+2025-03-03 12:31:48,011 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000130
+2025-03-03 12:31:48,012 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,014 - optimization - INFO - [ga_solver.py:209] - Generation 198/200 - Best: -0.059993, Avg: -0.059994, Diversity: 0.000118
+2025-03-03 12:31:48,015 - optimization - INFO - [base_ga_solver.py:367] - Generation 192/200:
+2025-03-03 12:31:48,015 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060526
+2025-03-03 12:31:48,015 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060530
+2025-03-03 12:31:48,015 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000119
+2025-03-03 12:31:48,015 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,017 - optimization - INFO - [ga_solver.py:209] - Generation 199/200 - Best: -0.059993, Avg: -0.059994, Diversity: 0.000098
+2025-03-03 12:31:48,019 - optimization - INFO - [base_ga_solver.py:367] - Generation 193/200:
+2025-03-03 12:31:48,019 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060525
+2025-03-03 12:31:48,019 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060528
+2025-03-03 12:31:48,019 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000122
+2025-03-03 12:31:48,019 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,021 - optimization - INFO - [ga_solver.py:209] - Generation 200/200 - Best: -0.059992, Avg: -0.059993, Diversity: 0.000101
+2025-03-03 12:31:48,023 - optimization - INFO - [base_ga_solver.py:367] - Generation 194/200:
+2025-03-03 12:31:48,023 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060523
+2025-03-03 12:31:48,023 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060527
+2025-03-03 12:31:48,023 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000115
+2025-03-03 12:31:48,023 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,024 - optimization - INFO - [parallel_solver.py:68] - GeneticAlgorithmSolver completed successfully
+2025-03-03 12:31:48,027 - optimization - INFO - [base_ga_solver.py:367] - Generation 195/200:
+2025-03-03 12:31:48,027 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060523
+2025-03-03 12:31:48,027 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060526
+2025-03-03 12:31:48,027 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:48,027 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,030 - optimization - INFO - [base_ga_solver.py:367] - Generation 196/200:
+2025-03-03 12:31:48,030 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060521
+2025-03-03 12:31:48,031 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060525
+2025-03-03 12:31:48,031 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:48,031 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,034 - optimization - INFO - [base_ga_solver.py:367] - Generation 197/200:
+2025-03-03 12:31:48,034 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060520
+2025-03-03 12:31:48,034 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060524
+2025-03-03 12:31:48,034 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000102
+2025-03-03 12:31:48,034 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,038 - optimization - INFO - [base_ga_solver.py:367] - Generation 198/200:
+2025-03-03 12:31:48,038 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060520
+2025-03-03 12:31:48,038 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060522
+2025-03-03 12:31:48,038 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000106
+2025-03-03 12:31:48,038 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,041 - optimization - INFO - [base_ga_solver.py:367] - Generation 199/200:
+2025-03-03 12:31:48,042 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060519
+2025-03-03 12:31:48,042 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060522
+2025-03-03 12:31:48,042 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000107
+2025-03-03 12:31:48,042 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,045 - optimization - INFO - [base_ga_solver.py:367] - Generation 200/200:
+2025-03-03 12:31:48,045 - optimization - INFO - [base_ga_solver.py:368] -   Best Fitness: -0.060516
+2025-03-03 12:31:48,045 - optimization - INFO - [base_ga_solver.py:369] -   Avg Fitness: -0.060520
+2025-03-03 12:31:48,045 - optimization - INFO - [base_ga_solver.py:370] -   Population Diversity: 0.000101
+2025-03-03 12:31:48,045 - optimization - INFO - [base_ga_solver.py:371] -   Improvement: +0.00%
+2025-03-03 12:31:48,048 - optimization - INFO - [parallel_solver.py:68] - AdaptiveGeneticAlgorithmSolver completed successfully
+2025-03-03 12:31:48,048 - optimization - INFO - [parallel_solver.py:93] - Parallel optimization completed in 1.36s
+2025-03-03 12:31:48,048 - optimization - INFO - [parallel_solver.py:94] - Successful solvers: ['SLSQPSolver', 'BasinHoppingOptimizer', 'ParticleSwarmOptimizer', 'DifferentialEvolutionSolver', 'GeneticAlgorithmSolver', 'AdaptiveGeneticAlgorithmSolver']
+2025-03-03 12:31:48,048 - optimization - INFO - [objective.py:340] - Successfully completed parallel optimization with 6 solutions
+2025-03-03 12:31:48,388 - optimization - INFO - [plots.py:109] - Delta-V breakdown plot saved to /Users/jwt/stage_opt/output/dv_breakdown.png
+2025-03-03 12:31:48,491 - optimization - INFO - [plots.py:167] - Execution time plot saved to /Users/jwt/stage_opt/output/execution_time.png
+2025-03-03 12:31:48,597 - optimization - INFO - [plots.py:225] - Payload fraction plot saved to /Users/jwt/stage_opt/output/payload_fraction.png
+2025-03-03 12:31:48,597 - optimization - INFO - [plots.py:241] - All plots generated successfully
+2025-03-03 12:31:48,598 - optimization - INFO - [report_generator.py:92] - Report saved to /Users/jwt/stage_opt/output/optimization_report.json
+2025-03-03 12:31:48,598 - optimization - INFO - [report_generator.py:93] - Successful solvers: ['SLSQPSolver', 'BasinHoppingOptimizer', 'ParticleSwarmOptimizer', 'DifferentialEvolutionSolver', 'GeneticAlgorithmSolver', 'AdaptiveGeneticAlgorithmSolver']
+2025-03-03 12:31:48,598 - optimization - INFO - [main.py:43] - Reports generated successfully
