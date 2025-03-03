@@ -1,6 +1,6 @@
-# Stage Optimization
+# Multi Stage Rocket Optimization Program
 
-Compares different rocket algorithms? 
+Generates graphs and reports comparing different rocket optimization algorithms.
 
 ## Run
 

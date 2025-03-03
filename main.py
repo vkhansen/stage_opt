@@ -9,7 +9,7 @@ from src.utils.config import CONFIG, logger, OUTPUT_DIR
 from src.optimization.objective import RocketStageOptimizer
 from src.reporting.report_generator import generate_report
 from src.visualization.plots import plot_results
-
+from src.reporting.csv_reports import write_results_to_csv
 
 def main():
     """Main optimization routine."""
@@ -38,9 +38,9 @@ def main():
             plot_results(results)
 
             try:
-                # Generate report
                 report = generate_report(results, CONFIG)
                 logger.info("Reports generated successfully")
+                write_results_to_csv(results, stages, "output")
             except Exception as e:
                 logger.error(f"Error generating reports: {e}")
         else:
