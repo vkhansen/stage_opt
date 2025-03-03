@@ -1,0 +1,100 @@
+{
+    "optimization": {
+        "penalty_coefficient": 1000.0,
+        "constraints": {
+            "total_dv": {
+                "type": "equality",
+                "tolerance": 1e-6
+            },
+            "stage_fractions": {
+                "first_stage": {
+                    "min_fraction": 0.15,
+                    "max_fraction": 0.80
+                },
+                "other_stages": {
+                    "min_fraction": 0.01,
+                    "max_fraction": 0.90
+                }
+            }
+        },
+        "bounds": {
+            "min_dv": 0.0,
+            "max_dv_factor": 1.0
+        },
+        "parallel": {
+            "max_workers": 4,
+            "timeout": 1000
+        },
+        "parallel_solver_timeout": 60,
+        "max_processes": 4,
+        "cache_size": 1000,
+        "solvers": {
+            "slsqp": {
+                "solver_specific": {
+                    "max_iterations": 1000,
+                    "ftol": 1e-6,
+                    "eps": 1e-8
+                }
+            },
+            "ga": {
+                "solver_specific": {
+                    "population_size": 200,
+                    "n_generations": 100,
+                    "mutation": {
+                        "eta": 20,
+                        "prob": 0.2
+                    },
+                    "crossover": {
+                        "eta": 15,
+                        "prob": 0.8
+                    },
+                    "tournament_size": 4,
+                    "elite_size": 2,
+                    "adaptive": {
+                        "diversity_threshold": 0.1,
+                        "stagnation_threshold": 10,
+                        "mutation_boost": 2.0,
+                        "population_boost": 1.5,
+                        "tournament_reduction": 0.5
+                    }
+                }
+            },
+            "adaptive_ga": {
+                "solver_specific": {
+                    "population_size": 50,
+                    "n_generations": 100,
+                    "initial_mutation_rate": 0.1,
+                    "initial_crossover_rate": 0.8,
+                    "min_mutation_rate": 0.05,
+                    "max_mutation_rate": 0.3,
+                    "min_crossover_rate": 0.6,
+                    "max_crossover_rate": 0.9,
+                    "adaptation_rate": 0.05
+                }
+            },
+            "pso": {
+                "solver_specific": {
+                    "n_particles": 50,
+                    "n_iterations": 100,
+                    "w": 0.7,
+                    "c1": 1.5,
+                    "c2": 1.5
+                }
+            },
+            "de": {
+                "solver_specific": {
+                    "population_size": 20,
+                    "max_iterations": 1000,
+                    "strategy": "best1bin",
+                    "mutation": [0.5, 1.0],
+                    "recombination": 0.7
+                }
+            }
+        }
+    },
+    "logging": {
+        "file": "optimization.log",
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    }
+}

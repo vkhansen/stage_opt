@@ -1,0 +1,86 @@
+*.rbc
+capybara-*.html
+.rspec
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
+/public/system
+/coverage/
+/spec/tmp
+*.orig
+rerun.txt
+pickle-email-*.html
+.idea
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+.DS_Store
+
+# Comment out this rule if you are OK with secrets being uploaded to the repo
+config/initializers/secret_token.rb
+config/master.key
+
+# Only include if you have production secrets in this file, which is no longer a Rails default
+# config/secrets.yml
+
+# dotenv
+# Comment out this rule if environment variables can be committed
+.env
+.env.development
+.env.production
+
+## Environment normalization:
+/.bundle
+/vendor/bundle
+
+# these should all be checked in to normalize the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# if using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+
+# Ignore pow environment settings
+.powenv
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+node_modules/
+
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+/public/sitemaps
+/public/uploads
+public/uploads
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+/config/credentials/production.key
+/config/credentials/development.key
+app/assets/builds/*.css
+app/assets/builds/*.js
+app/assets/builds/*.map
+
+TAGS
+
+/config/master.key
+
+.terraform
+terraform.tfstate
+terraform.tfstate.backup

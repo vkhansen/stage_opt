@@ -1,0 +1,17 @@
+2025-03-03 11:47:06,619 - optimization - INFO - Starting parallel optimization with 6 solvers
+2025-03-03 11:47:07,198 - optimization - INFO - SLSQPSolver completed successfully
+2025-03-03 11:47:07,245 - optimization - INFO - BasinHoppingOptimizer completed successfully
+2025-03-03 11:47:07,607 - optimization - INFO - ParticleSwarmOptimizer completed successfully
+2025-03-03 11:47:07,614 - optimization - INFO - DifferentialEvolutionSolver completed successfully
+2025-03-03 11:47:07,944 - optimization - INFO - GeneticAlgorithmSolver completed successfully
+2025-03-03 11:47:07,979 - optimization - INFO - AdaptiveGeneticAlgorithmSolver completed successfully
+2025-03-03 11:47:07,979 - optimization - INFO - Parallel optimization completed in 1.36s
+2025-03-03 11:47:07,979 - optimization - INFO - Successful solvers: ['SLSQPSolver', 'BasinHoppingOptimizer', 'ParticleSwarmOptimizer', 'DifferentialEvolutionSolver', 'GeneticAlgorithmSolver', 'AdaptiveGeneticAlgorithmSolver']
+2025-03-03 11:47:07,979 - optimization - INFO - Successfully completed parallel optimization with 6 solutions
+2025-03-03 11:47:08,316 - optimization - INFO - Delta-V breakdown plot saved to /Users/jwt/stage_opt/output/dv_breakdown.png
+2025-03-03 11:47:08,421 - optimization - INFO - Execution time plot saved to /Users/jwt/stage_opt/output/execution_time.png
+2025-03-03 11:47:08,526 - optimization - INFO - Payload fraction plot saved to /Users/jwt/stage_opt/output/payload_fraction.png
+2025-03-03 11:47:08,526 - optimization - INFO - All plots generated successfully
+2025-03-03 11:47:08,526 - optimization - INFO - Report saved to /Users/jwt/stage_opt/output/optimization_report.json
+2025-03-03 11:47:08,526 - optimization - INFO - Successful solvers: ['SLSQPSolver', 'BasinHoppingOptimizer', 'ParticleSwarmOptimizer', 'DifferentialEvolutionSolver', 'GeneticAlgorithmSolver', 'AdaptiveGeneticAlgorithmSolver']
+2025-03-03 11:47:08,526 - optimization - INFO - Reports generated successfully
