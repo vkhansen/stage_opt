@@ -1,5 +1,0 @@
-psutil
-numpy
-matplotlib
-scipy
-pymoo
