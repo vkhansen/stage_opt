@@ -1,8 +1,8 @@
 # Stage Optimization
 
-Compares different rocket launching algorithms(?). 
+Compares different rocket algorithms? 
 
-# Run
+## Run
 
 Install the dependencies:
 
@@ -16,13 +16,16 @@ Run the main script:
 python main.py
 ```
 
-# Tests
+## Tests
 
-pytest 
+```
+pytest
+``` 
 
-# Code Linting and Quality
+## Code Formatting
 
 To format all the code
+
 ```
 python -m black main.py src
 ```
