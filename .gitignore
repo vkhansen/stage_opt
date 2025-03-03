@@ -178,4 +178,5 @@ cython_debug/
 
 # VSCode
 .code
-output/
+output/*
+logs/*
