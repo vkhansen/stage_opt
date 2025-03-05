@@ -172,11 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-# Intellij
 .idea
-
-# VSCode
 .code
-output/*
-logs/*

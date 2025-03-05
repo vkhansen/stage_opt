@@ -1,4 +1,1 @@
-"""Stage optimization package."""
-
-# Expose package-level exports
-__all__ = []
+# __init__.py
